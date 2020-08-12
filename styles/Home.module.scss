@@ -1,0 +1,15 @@
+.root {
+	display: flex;
+
+	.main {
+		flex: 0 1 70%;
+		padding-right: 2rem;
+	}
+
+	.sidebar {
+		flex: 0 1 30%;
+		border: 1px solid var(--light-grey);
+		border-radius: 1rem;
+		padding: 1.5rem;
+	}
+}

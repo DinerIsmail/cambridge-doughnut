@@ -1,0 +1,57 @@
+.root {
+	.background {
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 100vw;
+		height: 100vh;
+		background: rgb(153, 189, 214);
+		z-index: 10;
+	}
+
+	.toggle {
+		border: none;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		cursor: pointer;
+		position: absolute;
+		top: 1.125rem;
+		left: 0.9375rem;
+		width: 3.125rem;
+		height: 3.125rem;
+		border-radius: 50%;
+		background: transparent;
+	}
+
+	.nav {
+		display: flex;
+		justify-content: center;
+		align-items: flex-start;
+		flex-direction: column;
+		margin-top: 6.25rem;
+		margin-left: 1.875rem;
+		list-style: none;
+
+		.navItem {
+			margin: 1.25rem 0;
+
+			a {
+				text-decoration: none;
+				color: white;
+				font-size: 1.75rem;
+
+				&:hover {
+					color: #567;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 960px) {
+	.root {
+		display: none;
+	}
+}
