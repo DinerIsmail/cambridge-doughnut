@@ -143,6 +143,11 @@ a {
 	text-decoration: none;
 }
 
+b,
+strong {
+	font-weight: 700;
+}
+
 :root {
 	--background-grey: #f4f4f4;
 	--light-grey: #eeeeee;

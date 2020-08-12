@@ -42,7 +42,9 @@ const Header = ({ showHero }) => {
 			<header className={styles.root}>
 				<nav className={styles.navBar}>
 					<MobileNav menuItems={links} />
-					<h1>Cambridge Doughnut</h1>
+					<Link href="/">
+						<h1>Cambridge Doughnut</h1>
+					</Link>
 					<ul className={styles.navLinks}>
 						{links.map(({ pathname, label }) => (
 							<Link href={pathname} key={pathname} passHref>
