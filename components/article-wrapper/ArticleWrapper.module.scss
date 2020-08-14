@@ -1,9 +1,14 @@
 .root {
 	margin: calc(var(--header-height)) auto 3.125rem;
+	padding: 0 1.5625rem;
 	width: 100%;
 
 	&.extraTopMargin {
 		margin-top: calc(var(--header-height) + 1rem);
+	}
+
+	& > h1:first-of-type {
+		margin-bottom: 2rem;
 	}
 
 	& > h1,
@@ -12,16 +17,16 @@
 	& > h4,
 	& > h5,
 	& > h6 {
-		margin: 2rem 1.5625rem 0 1.5625rem;
+		margin: 2rem 0 0;
 		line-height: 1.2;
 	}
 
 	& > section {
-		margin: 0 1.5625rem;
+		margin: 0;
 	}
 
 	& > p {
-		margin: 1rem 1.5625rem;
+		margin: 1rem 0;
 		color: rgba(0, 0, 0, 0.7);
 		font-size: 1.125rem;
 	}
@@ -31,11 +36,16 @@
 			width: 100%;
 		}
 	}
+
+	iframe {
+		width: 100%;
+	}
 }
 
 @media (min-width: 768px) {
 	.root {
 		margin: calc(var(--header-height) + 1rem) auto 3.125rem;
+		padding: 0 3.125rem;
 		width: 750px;
 
 		& > h1,
@@ -44,16 +54,16 @@
 		& > h4,
 		& > h5,
 		& > h6 {
-			margin: 2rem 3.125rem 0 3.125rem;
+			margin: 2rem 0 0;
 		}
 
 		& > section {
-			margin: 0 3.125rem;
+			margin: 0;
 		}
 
 		& > p,
 		& > ul {
-			margin: 1rem 3.125rem;
+			margin: 1rem 0;
 		}
 	}
 }

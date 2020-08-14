@@ -152,7 +152,13 @@ ul {
 	list-style-position: inside;
 }
 
+button {
+	outline: none;
+	border-style: none;
+}
+
 :root {
 	--background-grey: #f4f4f4;
 	--light-grey: #eeeeee;
+	--primary: #a3c1ad;
 }
