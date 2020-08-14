@@ -63,14 +63,14 @@
 	p,
 	ol,
 	ul {
+		font-size: 1.125rem;
+		line-height: 1.6;
 		color: rgba(0, 0, 0, 80%);
 	}
 
 	p {
 		margin-bottom: 1rem;
-		font-size: 1.25rem;
 		color: #121037;
-		line-height: 1.6;
 
 		a {
 			color: #597eba;
@@ -87,7 +87,6 @@
 	}
 
 	.container {
-		// width: 100%;
 		margin-top: 1rem;
 
 		& > section {

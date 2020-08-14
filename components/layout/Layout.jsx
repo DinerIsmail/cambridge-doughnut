@@ -3,7 +3,7 @@ import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 import Header from '../header';
-// import Footer from '~/components/footer';
+import Footer from '~/components/footer';
 import styles from './Layout.module.scss';
 
 const Layout = ({ children }) => {
@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
 				<main className={styles.main}>
 					<div className={styles.container}>{children}</div>
 				</main>
-				{/* <Footer className={classnames(styles.footer, styles[color])} /> */}
+				<Footer className={styles.footer} />
 			</motion.div>
 		</>
 	);

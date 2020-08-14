@@ -2,30 +2,28 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { RichText } from 'prismic-reactjs';
 import ArticleWrapper from '../components/article-wrapper';
-import Partners from '../components/partners';
 import { Client } from '../prismic-configuration.js';
 
-const About = ({ content }) => {
+const FAQ = ({ content }) => {
 	return (
 		<ArticleWrapper>
-			<h1>About us</h1>
+			<h1>FAQs</h1>
 			<RichText render={content.data.body} />
-			<Partners />
 		</ArticleWrapper>
 	);
 };
 
 export async function getStaticProps() {
 	try {
-		const content = await Client().getSingle('about');
+		const content = await Client().getSingle('faq');
 		return { props: { content }, revalidate: 1 };
 	} catch (error) {
 		return { props: { content: {} } };
 	}
 }
 
-About.propTypes = {
+FAQ.propTypes = {
 	content: PropTypes.object.isRequired,
 };
 
-export default About;
+export default FAQ;
