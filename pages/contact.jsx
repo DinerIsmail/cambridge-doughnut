@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import ArticleWrapper from '../components/article-wrapper';
 import ContactForm from '../components/contact-form';
 
@@ -10,10 +9,6 @@ const Contact = () => {
 			<ContactForm />
 		</ArticleWrapper>
 	);
-};
-
-Contact.propTypes = {
-	content: PropTypes.object.isRequired,
 };
 
 export default Contact;

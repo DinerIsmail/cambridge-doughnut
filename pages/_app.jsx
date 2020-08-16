@@ -5,7 +5,7 @@ import '../styles/globals.css';
 const App = ({ Component, pageProps }) => (
 	<>
 		<Head>
-			<title>The Cambridge Doughnut</title>
+			<title>Doughnut Economics Cambridge</title>
 			<link rel="icon" href="/favicon.ico" />
 			<meta
 				name="viewport"

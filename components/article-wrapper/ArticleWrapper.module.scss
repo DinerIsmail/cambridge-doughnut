@@ -3,10 +3,6 @@
 	padding: 0 1.5625rem;
 	width: 100%;
 
-	&.extraTopMargin {
-		margin-top: calc(var(--header-height) + 1rem);
-	}
-
 	& > h1:first-of-type {
 		margin-bottom: 2rem;
 	}
@@ -42,7 +38,7 @@
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
 	.root {
 		margin: calc(var(--header-height) + 1rem) auto 3.125rem;
 		padding: 0 3.125rem;

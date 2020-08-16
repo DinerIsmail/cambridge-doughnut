@@ -1,5 +1,4 @@
 .root {
-	display: flex;
 	margin-top: 2rem;
 
 	.main {
@@ -12,5 +11,11 @@
 		border: 1px solid var(--light-grey);
 		border-radius: 1rem;
 		padding: 1.5rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.root {
+		display: flex;
 	}
 }
