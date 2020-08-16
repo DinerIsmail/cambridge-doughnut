@@ -15,6 +15,7 @@ const App = ({ Component, pageProps }) => (
 				href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;display=swap"
 				rel="stylesheet"
 			></link>
+			<meta charset="utf-8" />
 			{/* TODO: Add the other meta tags */}
 		</Head>
 		<Layout>

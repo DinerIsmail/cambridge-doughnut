@@ -12,7 +12,8 @@
 		margin: 0 auto;
 		padding: 0 1rem;
 
-		h1 {
+		.logo {
+			height: 80%;
 			margin: 0 auto;
 			cursor: pointer;
 		}
@@ -42,7 +43,7 @@
 @media (min-width: 960px) {
 	.root {
 		.navBar {
-			h1 {
+			.logo {
 				margin: initial;
 			}
 

@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import MobileNav from './mobile-nav';
 import Hero from '../hero';
 import styles from './Header.module.scss';
+import Logo from 'assets/logo.png';
 
 const links = [
 	// {
@@ -43,7 +44,11 @@ const Header = ({ showHero }) => {
 				<nav className={styles.navBar}>
 					<MobileNav menuItems={links} />
 					<Link href="/">
-						<h1>Cambridge Doughnut</h1>
+						<img
+							alt="Doughnut Economics Cambridge logo"
+							className={styles.logo}
+							src={Logo}
+						/>
 					</Link>
 					<ul className={styles.navLinks}>
 						{links.map(({ pathname, label }) => (
