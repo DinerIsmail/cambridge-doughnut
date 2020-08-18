@@ -5,19 +5,32 @@ export default function Home() {
 		<div className={styles.root}>
 			<div className={styles.main}>
 				<p>
-					Barbecue party tips can help a host put together an
-					extraordinary event for family and friends. Eating outdoors
-					is a favorite pastime enjoyed by everyone and planning the
-					event can help make it more memorable and stress-free for
-					the host. Big or small, a barbecue party requires an
-					adequate amount of planning and preparation to ensure that
-					everything is laid out properly. It is advisable to plan the
-					event around a theme in order to create a focal point for
-					the barbecue party. This way, all aspects of the party such
-					as the food, games and decorations can be fashioned around a
-					central theme. Favorite themes for barbecue parties include
-					a Hawaiian motif, nostalgic seventies get-together, or, if
-					you are near the sea, opt for a beach bbq party!
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Donec sit amet arcu sagittis, volutpat ligula ac, gravida
+					nulla. Sed feugiat blandit ante et blandit. Phasellus
+					eleifend, elit quis suscipit pulvinar, leo lorem iaculis
+					odio, sed eleifend lorem justo a risus. Duis imperdiet
+					sollicitudin felis non ultrices. In magna augue, lobortis
+					vehicula lacinia vel, efficitur cursus nunc. Fusce
+					sollicitudin est a odio eleifend, eu sagittis leo suscipit.
+					Aliquam lectus turpis, tincidunt at augue ut, ornare
+					ultrices lectus. Phasellus sed risus a velit sagittis
+					aliquet.
+				</p>
+				<p>
+					Mauris ut est dictum, malesuada neque non, facilisis nulla.
+					Praesent non aliquam mauris. Integer molestie mi sit amet
+					sem iaculis mollis. Nulla nibh est, eleifend vitae feugiat
+					in, dignissim eu augue. Morbi tortor arcu, luctus quis orci
+					in, venenatis tempor elit. Aenean varius eleifend nibh, et
+					venenatis ante dictum ac. Fusce imperdiet euismod urna nec
+					cursus. Vestibulum quis massa vel erat tempor porttitor at
+					consequat lacus. Suspendisse tincidunt id eros vel
+					vestibulum. Suspendisse pulvinar mi dolor, et finibus tortor
+					sagittis sit amet. Integer congue imperdiet leo id
+					convallis. Quisque est lacus, fermentum a ex quis, tristique
+					tempus augue. Ut a sodales nisl. Quisque justo dolor,
+					commodo quis euismod a, dictum id odio.
 				</p>
 			</div>
 			<div className={styles.sidebar}>
