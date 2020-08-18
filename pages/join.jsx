@@ -9,6 +9,11 @@ const Join = ({ content }) => {
 		<ArticleWrapper>
 			<h1>Join us</h1>
 			<RichText render={content.data.body} />
+			<iframe
+				src="http://eepurl.com/ha-5Fn"
+				height="1000"
+				scrolling="no"
+			/>
 		</ArticleWrapper>
 	);
 };

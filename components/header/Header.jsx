@@ -23,10 +23,10 @@ const links = [
 		pathname: '/videos',
 		label: 'Videos',
 	},
-	{
-		pathname: '/hackathons',
-		label: 'Hackathons',
-	},
+	// {
+	// 	pathname: '/hackathons',
+	// 	label: 'Hackathons',
+	// },
 	{
 		pathname: '/faq',
 		label: 'FAQs',

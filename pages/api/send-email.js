@@ -1,13 +1,13 @@
 import nodemailer from 'nodemailer';
 
 const transporter = nodemailer.createTransport({
-	host: 'mail.privateemail.com',
+	host: 'smtp.gmail.com',
 	port: 465,
 	secure: true,
 	requireTLS: true,
 	auth: {
-		user: 'beeny@beeny.yoga',
-		pass: 'z6p9R$c7gxet', // TODO: use env var process.env.EMAIL_PASSWORD
+		user: 'cambridgedoughnut@gmail.com',
+		pass: process.env.EMAIL_PASSWORD,
 	},
 });
 

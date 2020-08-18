@@ -22,7 +22,7 @@
 	}
 
 	& > p {
-		margin: 1rem 0;
+		margin-bottom: 1rem;
 		color: rgba(0, 0, 0, 0.7);
 		font-size: 1.125rem;
 	}
@@ -59,7 +59,7 @@
 
 		& > p,
 		& > ul {
-			margin: 1rem 0;
+			margin-bottom: 1rem;
 		}
 	}
 }

@@ -6,3 +6,9 @@
 	padding: 1rem;
 	border-top: 1px solid #eeeeee;
 }
+
+@media (min-width: 960px) {
+	.root {
+		padding: 1rem 0;
+	}
+}
