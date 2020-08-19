@@ -16,7 +16,7 @@ export default async (req, res) => {
 	const from = name && email ? `${name} <${email}>` : `${name || email}`;
 	const mailOptions = {
 		from: 'Cambridge Doughnut <info@cambridgedoughnut.org.uk>',
-		to: 'cambridgedoughnut@gmail.com',
+		to: 'ismail.diner@gmail.com',
 		subject: `Contact Form submission from ${from}`,
 		replyTo: from,
 		text: body,
