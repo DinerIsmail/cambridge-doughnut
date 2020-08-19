@@ -1,11 +1,12 @@
 import nodemailer from 'nodemailer';
 
 const transporter = nodemailer.createTransport({
-	host: 'imap.gmail.com',
+	host: 'ocelot.mythic-beasts.com',
 	port: 993,
 	secure: true,
+	requireTLS: true,
 	auth: {
-		user: 'cambridgedoughnut@gmail.com',
+		user: 'info@cambridgedoughnut.org.uk',
 		pass: process.env.EMAIL_PASSWORD,
 	},
 });
@@ -14,7 +15,7 @@ export default async (req, res) => {
 	const { name, email, body } = req.body;
 	const from = name && email ? `${name} <${email}>` : `${name || email}`;
 	const mailOptions = {
-		from: 'cambridgedoughnut@gmail.com',
+		from: 'Cambridge Doughnut <info@cambridgedoughnut.org.uk>',
 		to: 'cambridgedoughnut@gmail.com',
 		subject: `Contact Form submission from ${from}`,
 		replyTo: from,
