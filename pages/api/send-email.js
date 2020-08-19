@@ -3,8 +3,7 @@ import nodemailer from 'nodemailer';
 const transporter = nodemailer.createTransport({
 	host: 'smtp-auth.mythic-beasts.com',
 	port: 587,
-	secure: true,
-	requireTLS: true,
+	secure: false,
 	auth: {
 		user: 'info@cambridgedoughnut.org.uk',
 		pass: '2KpL8XMp6&Pe',
