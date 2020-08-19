@@ -6,7 +6,7 @@ const transporter = nodemailer.createTransport({
 	secure: false,
 	auth: {
 		user: 'info@cambridgedoughnut.org.uk',
-		pass: '2KpL8XMp6&Pe',
+		pass: process.env.EMAIL_PASSWORD,
 	},
 });
 
