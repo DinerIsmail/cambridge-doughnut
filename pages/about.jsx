@@ -6,6 +6,8 @@ import Partners from '../components/partners';
 import { Client } from '../prismic-configuration.js';
 
 const About = ({ content }) => {
+	if (!content.data) return null;
+
 	return (
 		<ArticleWrapper>
 			<h1>About us</h1>

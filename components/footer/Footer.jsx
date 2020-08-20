@@ -1,18 +1,16 @@
 import React from 'react';
+import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
 import styles from './Footer.module.scss';
 
-const Footer = () => {
+const Footer = ({ className }) => {
 	return (
-		<footer className={styles.root}>
+		<footer className={classnames(styles.root, className)}>
 			<div>
-				<b>
-					Doughnut
-					<br /> Economy
-					<br />
-				</b>{' '}
-				Cambridge
+				<Link href="/privacy-policy">
+					<a>Privacy policy</a>
+				</Link>
 			</div>
 			<div>
 				<Link href="/about">
@@ -21,6 +19,10 @@ const Footer = () => {
 			</div>
 		</footer>
 	);
+};
+
+Footer.propTypes = {
+	className: PropTypes.string,
 };
 
 export default Footer;

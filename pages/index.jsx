@@ -1,6 +1,9 @@
+import PropTypes from 'prop-types';
 import styles from '../styles/Home.module.scss';
 
-export default function Home() {
+const Home = ({ content }) => {
+	// if (!content.data) return null;
+
 	return (
 		<div className={styles.root}>
 			<div className={styles.main}>
@@ -38,4 +41,19 @@ export default function Home() {
 			</div>
 		</div>
 	);
+};
+
+export async function getStaticProps() {
+	try {
+		const content = await Client().getSingle('home');
+		return { props: { content }, revalidate: 1 };
+	} catch (error) {
+		return { props: { content: {} } };
+	}
 }
+
+Home.propTypes = {
+	content: PropTypes.object.isRequired,
+};
+
+export default Home;

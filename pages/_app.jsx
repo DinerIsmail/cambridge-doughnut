@@ -20,7 +20,39 @@ const App = ({ Component, pageProps }) => (
 				rel="stylesheet"
 			/>
 			<meta charSet="utf-8" />
-			{/* TODO: Add the other meta tags */}
+			<link rel="canonical" href="https://cambridgedoughnut.org.uk/" />
+			{/* <meta
+				property="og:image"
+				content="static/images/generic-social-media-share.png"
+			/> */}
+			<meta property="og:title" content="Cambridge Doughnut" />
+			<meta property="og:description" content="TODO" />
+			<meta property="og:locale" content="en_GB" />
+			<meta property="og:type" content="website" />
+			<meta
+				property="og:url"
+				content="https://cambridgedoughnut.org.uk"
+			/>
+			<meta property="og:site_name" content="Cambridge Doughnut" />
+			{/* <meta property="fp:pages" content="343548653105695" /> */}
+			<meta
+				name="twitter:url"
+				content="https://cambridgedoughnut.org.uk"
+			/>
+			{/* <meta name="twitter:site" content="@xr_eoe" /> */}
+			{/* <meta
+				property="article:publisher"
+				content="https://www.facebook.com/"
+			/> */}
+			<meta name="description" content="TODO" />
+			<meta
+				name="keywords"
+				content="Doughnut economics, circular economy, Cambridge, community, economy, equality, climate crisis"
+			/>
+			<meta
+				name="viewport"
+				content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no, viewport-fit=cover"
+			/>
 		</Head>
 		<Layout>
 			<Component {...pageProps} />

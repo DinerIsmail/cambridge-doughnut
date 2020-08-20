@@ -5,6 +5,8 @@ import ArticleWrapper from '../components/article-wrapper';
 import { Client } from '../prismic-configuration.js';
 
 const Join = ({ content }) => {
+	if (!content.data) return null;
+
 	return (
 		<ArticleWrapper>
 			<h1>Join us</h1>

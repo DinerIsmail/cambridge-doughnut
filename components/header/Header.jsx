@@ -7,10 +7,10 @@ import styles from './Header.module.scss';
 import Logo from 'assets/logo.png';
 
 const links = [
-	// {
-	// 	pathname: '/',
-	// 	label: 'Home',
-	// },
+	{
+		pathname: '/',
+		label: 'Home',
+	},
 	{
 		pathname: '/about',
 		label: 'About us',

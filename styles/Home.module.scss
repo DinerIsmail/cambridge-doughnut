@@ -3,7 +3,6 @@
 
 	.main {
 		flex: 0 1 70%;
-		padding-right: 2rem;
 	}
 
 	.sidebar {
@@ -17,5 +16,9 @@
 @media (min-width: 768px) {
 	.root {
 		display: flex;
+
+		.main {
+			padding-right: 2rem;
+		}
 	}
 }
