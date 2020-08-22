@@ -1,5 +1,5 @@
 .root {
-	margin-top: 2rem;
+	margin-top: 1rem;
 
 	.main {
 		flex: 0 1 70%;
@@ -9,7 +9,12 @@
 		flex: 0 1 30%;
 		border: 1px solid var(--light-grey);
 		border-radius: 1rem;
-		padding: 1.5rem;
+		padding: 1.5rem 0;
+		height: 1050px;
+	}
+
+	iframe {
+		width: 100%;
 	}
 }
 
