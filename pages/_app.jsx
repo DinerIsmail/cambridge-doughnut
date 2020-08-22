@@ -26,7 +26,10 @@ const App = ({ Component, pageProps }) => (
 				content="static/images/generic-social-media-share.png"
 			/> */}
 			<meta property="og:title" content="Cambridge Doughnut" />
-			<meta property="og:description" content="TODO" />
+			<meta
+				property="og:description"
+				content="Our aim is to promote an economy based on doughnut principles in Cambridge, and to facilitate its introduction by empowering individuals and organisations with the knowledge they need to co-create a more socially and ecologically just city."
+			/>
 			<meta property="og:locale" content="en_GB" />
 			<meta property="og:type" content="website" />
 			<meta
@@ -44,7 +47,10 @@ const App = ({ Component, pageProps }) => (
 				property="article:publisher"
 				content="https://www.facebook.com/"
 			/> */}
-			<meta name="description" content="TODO" />
+			<meta
+				name="description"
+				content="Our aim is to promote an economy based on doughnut principles in Cambridge, and to facilitate its introduction by empowering individuals and organisations with the knowledge they need to co-create a more socially and ecologically just city."
+			/>
 			<meta
 				name="keywords"
 				content="Doughnut economics, circular economy, Cambridge, community, economy, equality, climate crisis"
