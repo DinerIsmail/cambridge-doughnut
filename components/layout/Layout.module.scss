@@ -73,6 +73,12 @@
 
 		a {
 			color: var(--primary);
+			text-decoration: underline;
+			transition: opacity 200ms;
+
+			&:hover {
+				opacity: 75%;
+			}
 		}
 	}
 
