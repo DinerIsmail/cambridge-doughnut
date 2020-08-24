@@ -31,10 +31,6 @@ const links = [
 		pathname: '/faq',
 		label: 'FAQs',
 	},
-	{
-		pathname: '/contact',
-		label: 'Contact',
-	},
 ];
 
 const Header = ({ showHero }) => {
