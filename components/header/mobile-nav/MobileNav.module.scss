@@ -6,7 +6,6 @@
 		bottom: 0;
 		width: 100vw;
 		height: 100vh;
-		background: var(--primary);
 		z-index: 10;
 	}
 
@@ -23,6 +22,22 @@
 		height: 3.125rem;
 		border-radius: 50%;
 		background: transparent;
+
+		svg {
+			path {
+				stroke: var(--primary);
+			}
+		}
+	}
+
+	&.isOpen {
+		.toggle {
+			svg {
+				path {
+					stroke: white;
+				}
+			}
+		}
 	}
 
 	.nav {

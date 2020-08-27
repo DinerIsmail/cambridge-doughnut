@@ -13,7 +13,7 @@ const Join = ({ content }) => {
 			<RichText render={content.data.body} />
 			<iframe
 				src="https://eepurl.com/ha-5Fn"
-				height="1050"
+				height="1070"
 				scrolling="no"
 			/>
 		</ArticleWrapper>

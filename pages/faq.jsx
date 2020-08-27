@@ -9,7 +9,7 @@ const FAQ = ({ content }) => {
 
 	return (
 		<ArticleWrapper>
-			<h1>FAQs</h1>
+			<RichText render={content.data.title} />
 			<RichText render={content.data.body} />
 		</ArticleWrapper>
 	);

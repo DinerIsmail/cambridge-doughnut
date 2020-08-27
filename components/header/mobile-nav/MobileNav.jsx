@@ -12,19 +12,27 @@ import styles from './MobileNav.module.scss';
 const sidebar = {
 	open: (height = 1000) => ({
 		clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
+		backgroundColor: 'rgba(43, 129, 134, 1)',
 		transition: {
 			type: 'spring',
 			stiffness: 20,
 			restDelta: 2,
+			backgroundColor: {
+				when: 'beforeChildren',
+			},
 		},
 	}),
 	closed: {
 		clipPath: 'circle(25px at 40px 40px)',
+		backgroundColor: 'rgba(0, 0, 0, 0)',
 		transition: {
 			delay: 0.1,
 			type: 'spring',
 			stiffness: 400,
 			damping: 40,
+			backgroundColor: {
+				delay: 0.4,
+			},
 		},
 	},
 };
@@ -37,7 +45,7 @@ const MobileNav = ({ menuItems }) => {
 	return (
 		<motion.nav
 			animate={isOpen ? 'open' : 'closed'}
-			className={classnames(styles.root)}
+			className={classnames(styles.root, { [styles.isOpen]: isOpen })}
 			custom={height}
 			initial={false}
 			ref={containerRef}
@@ -48,13 +56,13 @@ const MobileNav = ({ menuItems }) => {
 					toggle={() => toggleOpen()}
 				/>
 				<ul className={styles.nav}>
-					{menuItems.map(({ pathname, label }) => (
+					{menuItems.map(({ pathname, label }, index) => (
 						<li className={styles.navItem} key={label}>
 							<Link href={pathname}>
 								<a
 									onClick={() => toggleOpen()}
 									role="link"
-									tabIndex={0}
+									tabIndex={index}
 									onKeyPress={() => toggleOpen()}
 								>
 									{label}
