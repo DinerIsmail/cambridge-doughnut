@@ -92,8 +92,6 @@
 	}
 
 	.container {
-		margin-top: 1rem;
-
 		& > section {
 			width: 90%;
 			margin: 0 auto;
@@ -103,7 +101,6 @@
 }
 
 .footer {
-	display: flex;
 	padding: 1rem;
 	transition-property: background-color, border-color, color, fill, stroke,
 		opacity, box-shadow, transform;

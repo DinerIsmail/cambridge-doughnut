@@ -1,21 +1,32 @@
 .root {
-	display: flex;
-	justify-content: flex-start;
 	max-width: 1100px;
 	margin: 3rem auto 0;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	border-top: 1px solid #eeeeee;
+	font-family: 'Poppins', sans-serif;
 
-	& > div {
-		margin-right: 1.5rem;
+	.links {
+		display: flex;
+		justify-content: flex-start;
 
-		a {
-			font-family: 'Poppins', sans-serif;
-			transition: opacity 200ms;
-			&:hover {
-				opacity: 75%;
+		.link {
+			margin-right: 1.5rem;
+
+			a {
+				transition: opacity 200ms;
+				&:hover {
+					opacity: 75%;
+				}
 			}
 		}
+	}
+
+	.copyright {
+		display: block;
+		text-align: center;
+		margin-top: 1rem;
+		font-size: 0.875rem;
+		color: var(--light-text);
 	}
 }

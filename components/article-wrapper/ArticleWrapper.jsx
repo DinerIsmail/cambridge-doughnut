@@ -13,7 +13,7 @@ const ArticleWrapper = ({ children }) => (
 );
 
 ArticleWrapper.propTypes = {
-	children: PropTypes.array.isRequired,
+	children: PropTypes.oneOfType([PropTypes.object, PropTypes.array]).isRequired,
 };
 
 export default ArticleWrapper;

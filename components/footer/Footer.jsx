@@ -4,22 +4,23 @@ import PropTypes from 'prop-types';
 import Link from 'next/link';
 import styles from './Footer.module.scss';
 
-const Footer = ({ className }) => {
-	return (
-		<footer className={classnames(styles.root, className)}>
-			<div>
+const Footer = ({ className }) => (
+	<footer className={classnames(styles.root, className)}>
+		<section className={styles.links}>
+			<div className={styles.link}>
 				<Link href="/privacy-policy">
 					<a>Privacy policy</a>
 				</Link>
 			</div>
-			<div>
+			<div className={styles.link}>
 				<Link href="/about">
 					<a>About us</a>
 				</Link>
 			</div>
-		</footer>
-	);
-};
+		</section>
+		<div className={styles.copyright}>Copyright © 2020 Cambridge Doughnut</div>
+	</footer>
+);
 
 Footer.propTypes = {
 	className: PropTypes.string,
