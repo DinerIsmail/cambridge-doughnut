@@ -134,8 +134,7 @@ html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-		Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+	font-family: sans-serif;
 }
 
 a {
@@ -169,4 +168,5 @@ button {
 	--background-grey: #f4f4f4;
 	--light-grey: #eeeeee;
 	--primary: #2b8186;
+	--primary-darker: #1c676b;
 }

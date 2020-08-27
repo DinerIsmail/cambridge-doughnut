@@ -9,7 +9,7 @@ const Videos = ({ content }) => {
 
 	return (
 		<ArticleWrapper>
-			<h1>Videos</h1>
+			<RichText render={content.data.title} />
 			<RichText render={content.data.body} />
 		</ArticleWrapper>
 	);

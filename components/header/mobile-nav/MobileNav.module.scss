@@ -22,12 +22,6 @@
 		height: 3.125rem;
 		border-radius: 50%;
 		background: transparent;
-
-		svg {
-			path {
-				stroke: var(--primary);
-			}
-		}
 	}
 
 	&.isOpen {

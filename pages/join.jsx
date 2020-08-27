@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { RichText } from 'prismic-reactjs';
 import ArticleWrapper from '../components/article-wrapper';
+import EmbeddedForm from '../components/embedded-form';
+import Button from '../components/display/button';
 import { Client } from '../prismic-configuration.js';
 
 const Join = ({ content }) => {
@@ -9,13 +11,11 @@ const Join = ({ content }) => {
 
 	return (
 		<ArticleWrapper>
-			<h1>Join us</h1>
+			<RichText render={content.data.title} />
 			<RichText render={content.data.body} />
-			<iframe
-				src="https://eepurl.com/ha-5Fn"
-				height="1070"
-				scrolling="no"
-			/>
+			<Button href="https://bit.ly/3ay08Aw" label="Join the Coalition" />
+			<RichText render={content.data.body2} />
+			<EmbeddedForm />
 		</ArticleWrapper>
 	);
 };
