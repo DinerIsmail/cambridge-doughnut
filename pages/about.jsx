@@ -13,7 +13,10 @@ const About = ({ content }) => {
 		<>
 			<Head>
 				<title>About | Doughnut Economics Cambridge</title>
-				<meta property="og:title" content="About | Cambridge Doughnut" />
+				<meta
+					property="og:title"
+					content="About | Cambridge Doughnut"
+				/>
 			</Head>
 			<ArticleWrapper>
 				<RichText render={content.data.title} />

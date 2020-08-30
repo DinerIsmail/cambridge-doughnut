@@ -20,6 +20,7 @@ const App = ({ Component, pageProps }) => (
 				rel="stylesheet"
 			/>
 			<link rel="canonical" href="https://cambridgedoughnut.org.uk/" />
+			<meta name="theme-color" content="#2b8186" />
 			{/* <meta
 				property="og:image"
 				content="static/images/generic-social-media-share.png"
