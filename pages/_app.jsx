@@ -5,7 +5,7 @@ import '../styles/globals.css';
 const App = ({ Component, pageProps }) => (
 	<>
 		<Head>
-			<title>Doughnut Economics Cambridge</title>
+			<meta charSet="utf-8" />
 			<link rel="icon" href="/favicon.ico" />
 			<meta
 				name="viewport"
@@ -19,13 +19,11 @@ const App = ({ Component, pageProps }) => (
 				href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
 				rel="stylesheet"
 			/>
-			<meta charSet="utf-8" />
 			<link rel="canonical" href="https://cambridgedoughnut.org.uk/" />
 			{/* <meta
 				property="og:image"
 				content="static/images/generic-social-media-share.png"
 			/> */}
-			<meta property="og:title" content="Cambridge Doughnut" />
 			<meta
 				property="og:description"
 				content="Our aim is to promote an economy based on doughnut principles in Cambridge, and to facilitate its introduction by empowering individuals and organisations with the knowledge they need to co-create a more socially and ecologically just city."
@@ -57,7 +55,7 @@ const App = ({ Component, pageProps }) => (
 			/>
 			<meta
 				name="viewport"
-				content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no, viewport-fit=cover"
+				content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes, viewport-fit=cover"
 			/>
 		</Head>
 		<Layout>

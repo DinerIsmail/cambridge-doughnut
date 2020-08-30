@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import PropTypes from 'prop-types';
 import { RichText } from 'prismic-reactjs';
 import ArticleWrapper from '../components/article-wrapper';
@@ -8,9 +9,21 @@ const Home = ({ content }) => {
 	if (!content.data) return null;
 
 	return (
-		<ArticleWrapper>
-			<RichText render={content.data.body} />
-		</ArticleWrapper>
+		<>
+			<Head>
+				<title>
+					Doughnut Economics Cambridge | A tool for transformative
+					action
+				</title>
+				<meta
+					property="og:title"
+					content="Cambridge Doughnut | A tool for transformative action"
+				/>
+			</Head>
+			<ArticleWrapper>
+				<RichText render={content.data.body} />
+			</ArticleWrapper>
+		</>
 	);
 };
 

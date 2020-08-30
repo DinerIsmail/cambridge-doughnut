@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import PropTypes from 'prop-types';
 import { RichText } from 'prismic-reactjs';
 import ArticleWrapper from '../components/article-wrapper';
@@ -10,13 +11,22 @@ const Join = ({ content }) => {
 	if (!content.data) return null;
 
 	return (
-		<ArticleWrapper>
-			<RichText render={content.data.title} />
-			<RichText render={content.data.body} />
-			<Button href="https://bit.ly/3ay08Aw" label="Join the Coalition" />
-			<RichText render={content.data.body2} />
-			<EmbeddedForm />
-		</ArticleWrapper>
+		<>
+			<Head>
+				<title>Join | Doughnut Economics Cambridge</title>
+				<meta property="og:title" content="Join | Cambridge Doughnut" />
+			</Head>
+			<ArticleWrapper>
+				<RichText render={content.data.title} />
+				<RichText render={content.data.body} />
+				<Button
+					href="https://bit.ly/3ay08Aw"
+					label="Join the Coalition"
+				/>
+				<RichText render={content.data.body2} />
+				<EmbeddedForm />
+			</ArticleWrapper>
+		</>
 	);
 };
 
