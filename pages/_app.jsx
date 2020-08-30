@@ -6,15 +6,12 @@ const App = ({ Component, pageProps }) => (
 	<>
 		<Head>
 			<meta charSet="utf-8" />
-			<link rel="icon" href="/favicon.ico" />
-			<meta
-				name="viewport"
-				content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no, viewport-fit=cover"
-			/>
 			<link
-				href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;display=swap"
-				rel="stylesheet"
-			></link>
+				rel="icon"
+				type="image/ico"
+				sizes="16x16"
+				href="static/favicon.ico"
+			/>
 			<link
 				href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
 				rel="stylesheet"
