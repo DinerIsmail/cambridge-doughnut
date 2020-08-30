@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import MailchimpReact from 'mailchimp-react';
 import styles from './EmbeddedForm.module.scss';
 
 const EmbeddedForm = () => {

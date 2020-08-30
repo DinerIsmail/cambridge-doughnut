@@ -14,9 +14,9 @@
 		"lint": "eslint --fix . && echo 'Lint complete.'"
 	},
 	"dependencies": {
-		"axios": "0.19.2",
+		"axios": "0.20.0",
 		"classnames": "2.2.6",
-		"framer-motion": "2.4.0",
+		"framer-motion": "2.6.5",
 		"next": "9.5.2",
 		"next-images": "1.4.1",
 		"nodemailer": "6.4.11",

@@ -70,15 +70,15 @@
 	p {
 		margin-bottom: 1rem;
 		color: #121037;
+	}
 
-		a {
-			color: var(--primary);
-			text-decoration: underline;
-			transition: opacity 200ms;
+	p > a, li > a {
+		color: var(--primary);
+		text-decoration: underline;
+		transition: opacity 200ms;
 
-			&:hover {
-				opacity: 75%;
-			}
+		&:hover {
+			opacity: 75%;
 		}
 	}
 

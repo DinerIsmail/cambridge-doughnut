@@ -41,7 +41,7 @@ const Header = ({ showHero }) => {
 					<MobileNav menuItems={links} />
 					<Link href="/">
 						<img
-							alt="Doughnut Economy Cambridge logo"
+							alt="Doughnut Economics Cambridge logo"
 							className={styles.logo}
 							src={Logo}
 						/>
