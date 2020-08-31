@@ -33,12 +33,12 @@ const App = ({ Component, pageProps }) => (
 				content="https://cambridgedoughnut.org.uk"
 			/>
 			<meta property="og:site_name" content="Cambridge Doughnut" />
-			{/* <meta property="fp:pages" content="343548653105695" /> */}
+			{/* <meta property="fb:pages" content="343548653105695" /> */}
 			<meta
 				name="twitter:url"
 				content="https://cambridgedoughnut.org.uk"
 			/>
-			{/* <meta name="twitter:site" content="@xr_eoe" /> */}
+			{/* <meta name="twitter:site" content="@TODO" /> */}
 			{/* <meta
 				property="article:publisher"
 				content="https://www.facebook.com/"

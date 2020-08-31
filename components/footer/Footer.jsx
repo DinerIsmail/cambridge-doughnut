@@ -2,7 +2,20 @@ import React from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import Link from 'next/link';
+import FacebookIcon from '../../assets/icons/facebook.svg';
+import TwitterIcon from '../../assets/icons/twitter.svg';
 import styles from './Footer.module.scss';
+
+const socialLinks = [
+	{
+		path: 'https://www.google.com',
+		Icon: FacebookIcon,
+	},
+	{
+		path: 'https://www.google.com',
+		Icon: TwitterIcon,
+	},
+];
 
 const Footer = ({ className }) => (
 	<footer className={classnames(styles.root, className)}>
@@ -13,12 +26,28 @@ const Footer = ({ className }) => (
 				</Link>
 			</div>
 			<div className={styles.link}>
-				<Link href="/about">
-					<a>About us</a>
+				<Link href="mailto:cambridgedoughnut@gmail.com">
+					<a>Get in touch</a>
 				</Link>
 			</div>
+			<ul className={styles.socialLinks}>
+				{socialLinks.map(({ path, Icon }) => (
+					<li key={path} className={styles.item}>
+						<a
+							href={path}
+							className={styles.link}
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<Icon className={styles.icon} />
+						</a>
+					</li>
+				))}
+			</ul>
 		</section>
-		<div className={styles.copyright}>Copyright © 2020 Cambridge Doughnut</div>
+		<div className={styles.copyright}>
+			Copyright © 2020 Cambridge Doughnut
+		</div>
 	</footer>
 );
 
