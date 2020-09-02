@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import withGA from 'next-ga';
+import Router from 'next/router';
 import Layout from '../components/layout';
 import '../styles/globals.css';
 
@@ -62,4 +64,4 @@ const App = ({ Component, pageProps }) => (
 	</>
 );
 
-export default App;
+export default withGA('UA-177228108-1', Router)(App);
