@@ -2,8 +2,13 @@ import React from 'react';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
 import { RichText } from 'prismic-reactjs';
+import PrismicDOM from 'prismic-dom';
 import ArticleWrapper from '../components/article-wrapper';
+import Faqs from '../components/faqs';
 import { Client } from '../prismic-configuration.js';
+import { htmlSerializer } from '../utils/prismicHelpers.js';
+
+const Elements = PrismicDOM.RichText.Elements;
 
 const FAQ = ({ content }) => {
 	if (!content.data) return null;
@@ -11,15 +16,13 @@ const FAQ = ({ content }) => {
 	return (
 		<>
 			<Head>
-				<title>About | Doughnut Economics Cambridge</title>
-				<meta
-					property="og:title"
-					content="About | Cambridge Doughnut"
-				/>
+				<title>FAQs | Doughnut Economics Cambridge</title>
+				<meta property="og:title" content="FAQs | Cambridge Doughnut" />
 			</Head>
 			<ArticleWrapper>
 				<RichText render={content.data.title} />
-				<RichText render={content.data.body} />
+				<Faqs />
+				{/* <RichText render={content.data.body} /> */}
 			</ArticleWrapper>
 		</>
 	);
