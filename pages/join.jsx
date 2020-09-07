@@ -19,10 +19,10 @@ const Join = ({ content }) => {
 			<ArticleWrapper>
 				<RichText render={content.data.title} />
 				<RichText render={content.data.body} />
-				<Button
+				{/* <Button
 					href="https://bit.ly/3ay08Aw"
 					label="Join the Coalition"
-				/>
+				/> */}
 				<RichText render={content.data.body2} />
 				<EmbeddedForm />
 			</ArticleWrapper>
