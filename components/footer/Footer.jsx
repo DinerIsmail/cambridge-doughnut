@@ -26,8 +26,8 @@ const Footer = ({ className }) => (
 				</Link>
 			</div>
 			<div className={styles.link}>
-				<Link href="mailto:cambridgedoughnut@gmail.com">
-					<a>Get in touch</a>
+				<Link href="mailto:info@cambridgedoughnut.org.uk">
+					<a>info@cambridgedoughnut.org.uk</a>
 				</Link>
 			</div>
 			<ul className={styles.socialLinks}>
