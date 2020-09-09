@@ -8,6 +8,8 @@
 
 	.links {
 		display: flex;
+		flex-direction: column;
+		align-items: center;
 		justify-content: space-between;
 
 		.link {
@@ -79,6 +81,7 @@
 		justify-content: space-between;
 
 		.links {
+			flex-direction: row;
 			justify-content: flex-start;
 			font-size: 0.875rem;
 		}
