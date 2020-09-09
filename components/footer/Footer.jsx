@@ -8,11 +8,11 @@ import styles from './Footer.module.scss';
 
 const socialLinks = [
 	{
-		path: 'https://www.google.com',
+		path: 'https://facebook.com/CamDoughnut',
 		Icon: FacebookIcon,
 	},
 	{
-		path: 'https://www.google.com',
+		path: 'https://twitter.com/CamDoughnut',
 		Icon: TwitterIcon,
 	},
 ];

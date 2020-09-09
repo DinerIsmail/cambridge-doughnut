@@ -16,7 +16,7 @@
 	"dependencies": {
 		"axios": "0.20.0",
 		"classnames": "2.2.6",
-		"framer-motion": "2.6.5",
+		"framer-motion": "2.6.9",
 		"next": "9.5.2",
 		"next-ga": "2.3.4",
 		"next-images": "1.4.1",
@@ -31,10 +31,10 @@
 	},
 	"devDependencies": {
 		"@svgr/webpack": "5.4.0",
-		"eslint": "7.7.0",
+		"eslint": "7.8.1",
 		"eslint-config-airbnb": "18.2.0",
 		"eslint-config-prettier": "6.11.0",
-		"eslint-plugin-html": "6.0.3",
+		"eslint-plugin-html": "6.1.0",
 		"eslint-plugin-import": "2.22.0",
 		"eslint-plugin-jsx-a11y": "6.3.1",
 		"eslint-plugin-prettier": "3.1.4",
