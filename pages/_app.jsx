@@ -20,10 +20,10 @@ const App = ({ Component, pageProps }) => (
 			/>
 			<link rel="canonical" href="https://cambridgedoughnut.org.uk/" />
 			<meta name="theme-color" content="#2b8186" />
-			{/* <meta
+			<meta
 				property="og:image"
-				content="static/images/generic-social-media-share.png"
-			/> */}
+				content="https://images.prismic.io/cambridgedoughnut/7375626c-7665-4d4e-8a8f-1192483eceb6_og-image.jpg?auto=compress,format"
+			/>
 			<meta
 				property="og:description"
 				content="Our aim is to promote an economy based on doughnut principles in Cambridge, and to facilitate its introduction by empowering individuals and organisations with the knowledge they need to co-create a more socially and ecologically just city."

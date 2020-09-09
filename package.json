@@ -16,7 +16,7 @@
 	"dependencies": {
 		"axios": "0.20.0",
 		"classnames": "2.2.6",
-		"framer-motion": "2.6.9",
+		"framer-motion": "2.6.10",
 		"next": "9.5.2",
 		"next-ga": "2.3.4",
 		"next-images": "1.4.1",
