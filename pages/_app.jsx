@@ -26,7 +26,7 @@ const App = ({ Component, pageProps }) => (
 			/>
 			<meta
 				property="og:description"
-				content="Our aim is to promote an economy based on doughnut principles in Cambridge, and to facilitate its introduction by empowering individuals and organisations with the knowledge they need to co-create a more socially and ecologically just city."
+				content="We envisage a world with an economy that operates within the Earth’s capacity, protects the natural environment and meets the social and economic needs of all people."
 			/>
 			<meta property="og:locale" content="en_GB" />
 			<meta property="og:type" content="website" />
@@ -47,7 +47,7 @@ const App = ({ Component, pageProps }) => (
 			/> */}
 			<meta
 				name="description"
-				content="Our aim is to promote an economy based on doughnut principles in Cambridge, and to facilitate its introduction by empowering individuals and organisations with the knowledge they need to co-create a more socially and ecologically just city."
+				content="We envisage a world with an economy that operates within the Earth’s capacity, protects the natural environment and meets the social and economic needs of all people."
 			/>
 			<meta
 				name="keywords"
