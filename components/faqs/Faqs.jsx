@@ -205,10 +205,7 @@ const FaqLinks = ({ faqs }) => (
 			</li>
 			<li>
 				Join one of our upcoming{' '}
-				<a href="https://cambridgedoughnut.org.uk/hackathons">
-					Hackathons
-				</a>
-				.
+				<a href="https://cambridgedoughnut.org.uk/events">events</a>.
 			</li>
 			<li>Encourage your organisation to get involved.</li>
 			<li>

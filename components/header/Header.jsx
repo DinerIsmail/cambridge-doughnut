@@ -24,8 +24,8 @@ const links = [
 		label: 'Videos',
 	},
 	{
-		pathname: '/hackathons',
-		label: 'Hackathons',
+		pathname: '/events',
+		label: 'Events',
 	},
 	{
 		pathname: '/faq',

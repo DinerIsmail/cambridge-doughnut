@@ -35,16 +35,16 @@ const App = ({ Component, pageProps }) => (
 				content="https://cambridgedoughnut.org.uk"
 			/>
 			<meta property="og:site_name" content="Cambridge Doughnut" />
-			{/* <meta property="fb:pages" content="343548653105695" /> */}
+			<meta property="fb:pages" content="112921467211265" />
 			<meta
 				name="twitter:url"
 				content="https://cambridgedoughnut.org.uk"
 			/>
-			{/* <meta name="twitter:site" content="@TODO" /> */}
-			{/* <meta
+			<meta name="twitter:site" content="@camdoughnut" />
+			<meta
 				property="article:publisher"
-				content="https://www.facebook.com/"
-			/> */}
+				content="https://www.facebook.com/camdoughnut"
+			/>
 			<meta
 				name="description"
 				content="We envisage a world with an economy that operates within the Earth’s capacity, protects the natural environment and meets the social and economic needs of all people."
