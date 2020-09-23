@@ -11,7 +11,7 @@ const Hackathons = ({ content }) => {
 	return (
 		<>
 			<Head>
-				<title>Hackathons | Doughnut Economics Cambridge</title>
+				<title>Events | Doughnut Economics Cambridge</title>
 				<meta
 					property="og:title"
 					content="Hackathons | Cambridge Doughnut"
