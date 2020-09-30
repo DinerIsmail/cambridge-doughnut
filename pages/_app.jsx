@@ -30,10 +30,10 @@ const App = ({ Component, pageProps }) => (
 			/>
 			<meta property="og:locale" content="en_GB" />
 			<meta property="og:type" content="website" />
-			<meta
+			{/* <meta
 				property="og:url"
 				content="https://cambridgedoughnut.org.uk"
-			/>
+			/> */}
 			<meta property="og:site_name" content="Cambridge Doughnut" />
 			<meta property="fb:pages" content="112921467211265" />
 			<meta

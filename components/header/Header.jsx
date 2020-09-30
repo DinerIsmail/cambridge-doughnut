@@ -20,6 +20,10 @@ const links = [
 		label: 'Join us',
 	},
 	{
+		pathname: '/news',
+		label: 'News',
+	},
+	{
 		pathname: '/videos',
 		label: 'Videos',
 	},
