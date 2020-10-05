@@ -17,7 +17,7 @@
 		"axios": "0.20.0",
 		"classnames": "2.2.6",
 		"dayjs": "1.8.36",
-		"framer-motion": "2.7.6",
+		"framer-motion": "2.7.7",
 		"next": "9.5.2",
 		"next-ga": "2.3.4",
 		"next-images": "1.6.0",
