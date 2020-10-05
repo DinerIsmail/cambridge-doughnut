@@ -32,10 +32,10 @@ const Post = ({ content, postId }) => {
 	return (
 		<>
 			<Head>
-				{content.data.image.url ? (
+				{content.data.main_image.url ? (
 					<meta
 						property="og:image"
-						content={content.data.image.url}
+						content={content.data.main_image.url}
 					/>
 				) : (
 					<meta
