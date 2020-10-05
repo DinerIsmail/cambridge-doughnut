@@ -49,17 +49,6 @@ const App = ({ Component, pageProps }) => (
 				name="viewport"
 				content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes, viewport-fit=cover"
 			/>
-			<script id="mcjs">
-				!function(c,h,i,m,p)
-				{
-					((m = c.createElement(h)),
-					(p = c.getElementsByTagName(h)[0]),
-					(m.async = 1),
-					(m.src = i),
-					p.parentNode.insertBefore(m, p))
-				}
-				(document,"script","https://chimpstatic.com/mcjs-connected/js/users/66c0c9599ca6c7cc0fa5495ed/f1cff002b42b334a8eaa49d98.js");
-			</script>
 		</Head>
 		<Layout>
 			<Component {...pageProps} />
