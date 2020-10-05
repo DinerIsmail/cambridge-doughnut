@@ -17,6 +17,10 @@ const About = ({ content }) => {
 					property="og:title"
 					content="About | Cambridge Doughnut"
 				/>
+				<meta
+					property="og:image"
+					content="https://images.prismic.io/cambridgedoughnut/7375626c-7665-4d4e-8a8f-1192483eceb6_og-image.jpg?auto=compress,format"
+				/>
 			</Head>
 			<ArticleWrapper>
 				<RichText render={content.data.title} />

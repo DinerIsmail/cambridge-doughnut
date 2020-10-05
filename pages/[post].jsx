@@ -32,7 +32,7 @@ const Post = ({ content, postId }) => {
 	return (
 		<>
 			<Head>
-				{/* {content.data.image.url ? (
+				{content.data.image.url ? (
 					<meta
 						property="og:image"
 						content={content.data.image.url}
@@ -42,7 +42,7 @@ const Post = ({ content, postId }) => {
 						property="og:image"
 						content="https://images.prismic.io/xrcambridge/7a4a2295-0c34-4eeb-a2c5-ca169974f884_generic-social-media-share.png"
 					/>
-				)} */}
+				)}
 				<meta
 					property="og:title"
 					content={`${content.data.title[0].text} | Cambridge Doughnut`}

@@ -21,19 +21,11 @@ const App = ({ Component, pageProps }) => (
 			<link rel="canonical" href="https://cambridgedoughnut.org.uk/" />
 			<meta name="theme-color" content="#2b8186" />
 			<meta
-				property="og:image"
-				content="https://images.prismic.io/cambridgedoughnut/7375626c-7665-4d4e-8a8f-1192483eceb6_og-image.jpg?auto=compress,format"
-			/>
-			<meta
 				property="og:description"
 				content="We envisage a world with an economy that operates within the Earth’s capacity, protects the natural environment and meets the social and economic needs of all people."
 			/>
 			<meta property="og:locale" content="en_GB" />
 			<meta property="og:type" content="website" />
-			{/* <meta
-				property="og:url"
-				content="https://cambridgedoughnut.org.uk"
-			/> */}
 			<meta property="og:site_name" content="Cambridge Doughnut" />
 			<meta property="fb:pages" content="112921467211265" />
 			<meta
