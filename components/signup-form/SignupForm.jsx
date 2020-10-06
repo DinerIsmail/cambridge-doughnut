@@ -50,16 +50,12 @@ const SignupForm = () => {
 	const subscribe = async () => {
 		setState(State.LOADING);
 		setErrorMessage(null);
+
 		try {
 			const selectedOptions = checkboxes
 				.filter((t) => t.checked)
 				.map((c) => c.id);
-			console.log({
-				email,
-				firstName,
-				lastName,
-				selectedOptions,
-			});
+
 			await axios.post('/api/newsletter', {
 				email,
 				firstName,
@@ -67,6 +63,9 @@ const SignupForm = () => {
 				selectedOptions,
 			});
 			setState(State.SUCCESS);
+			setEmail('');
+			setFirstName('');
+			setLastName(''); // TODO: create reset function
 		} catch (e) {
 			setErrorMessage(e.response.data.error);
 			setState(State.ERROR);
@@ -81,34 +80,75 @@ const SignupForm = () => {
 
 	return (
 		<section className={styles.signupForm}>
+			<h2>Register Interest</h2>
+			<p>
+				Register your interest in one or more of the following options.
+			</p>
+			<p>
+				Personal data we collect under GDPR is name and email address,
+				and any information you enter in the open fields. Please do not
+				submit information on someone else’s behalf.
+			</p>
+			<p>
+				If you have any questions, please get in touch with us on &nbsp;
+				<a href="mailto:cambridgedoughnut+privacy@gmail.com">
+					cambridgedoughnut+privacy@gmail.com
+				</a>
+				.
+			</p>
+			<p>
+				Our privacy policy:{' '}
+				<a href="https://bit.ly/319oCNE">https://bit.ly/319oCNE</a>
+			</p>
 			<div>
+				<label className={styles.label} htmlFor="emailInput">
+					Email
+				</label>
 				<input
-					className={styles.textInput}
+					className={styles.emailInput}
+					id="emailInput"
+					name="emailInput"
 					onChange={(e) => setEmail(e.target.value)}
 					type="email"
-					placeholder="Email address"
 					value={email}
 					autoCapitalize="off"
 					autoCorrect="off"
 				/>
-				<input
-					className={styles.textInput}
-					onChange={(e) => setFirstName(e.target.value)}
-					type="text"
-					placeholder="First name"
-					value={firstName}
-					autoCapitalize="off"
-					autoCorrect="off"
-				/>
-				<input
-					className={styles.textInput}
-					onChange={(e) => setLastName(e.target.value)}
-					type="text"
-					placeholder="Last name"
-					value={lastName}
-					autoCapitalize="off"
-					autoCorrect="off"
-				/>
+				<div className={styles.row}>
+					<div className={styles.column}>
+						<label
+							className={styles.label}
+							htmlFor="firstNameInput"
+						>
+							First name
+						</label>
+						<input
+							className={styles.firstNameInput}
+							id="firstNameInput"
+							name="firstNameInput"
+							onChange={(e) => setFirstName(e.target.value)}
+							type="text"
+							value={firstName}
+							autoCapitalize="on"
+							autoCorrect="off"
+						/>
+					</div>
+					<div className={styles.column}>
+						<label className={styles.label} htmlFor="lastNameInput">
+							Last name
+						</label>
+						<input
+							className={styles.lastNameInput}
+							id="lastNameInput"
+							name="lastNameInput"
+							onChange={(e) => setLastName(e.target.value)}
+							type="text"
+							value={lastName}
+							autoCapitalize="on"
+							autoCorrect="off"
+						/>
+					</div>
+				</div>
 
 				{checkboxes.map((checkbox, i) => (
 					<label className={styles.groupCheckbox} key={checkbox.id}>
@@ -143,7 +183,6 @@ const SignupForm = () => {
 				/>
 				I want to receive emails from Cambridge Doughnut
 			</label>
-
 			{state === State.ERROR && (
 				<span className={styles.errorMessage}>{errorMessage}</span>
 			)}

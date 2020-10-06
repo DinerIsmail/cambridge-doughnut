@@ -51,7 +51,7 @@ export default async (req, res) => {
 
 	if (!email || !email.length) {
 		return res.status(400).json({
-			error: 'Forgot to add your email',
+			error: 'You forgot to add your email',
 		});
 	}
 
