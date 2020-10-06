@@ -20,10 +20,6 @@ const App = ({ Component, pageProps }) => (
 			/>
 			<link rel="canonical" href="https://cambridgedoughnut.org.uk/" />
 			<meta name="theme-color" content="#2b8186" />
-			<meta
-				property="og:description"
-				content="We envisage a world with an economy that operates within the Earth’s capacity, protects the natural environment and meets the social and economic needs of all people."
-			/>
 			<meta property="og:locale" content="en_GB" />
 			<meta property="og:type" content="website" />
 			<meta property="og:site_name" content="Cambridge Doughnut" />
@@ -36,10 +32,6 @@ const App = ({ Component, pageProps }) => (
 			<meta
 				property="article:publisher"
 				content="https://www.facebook.com/camdoughnut"
-			/>
-			<meta
-				name="description"
-				content="We envisage a world with an economy that operates within the Earth’s capacity, protects the natural environment and meets the social and economic needs of all people."
 			/>
 			<meta
 				name="keywords"

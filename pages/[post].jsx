@@ -44,6 +44,11 @@ const Post = ({ content, postId }) => {
 					/>
 				)}
 				<meta
+					property="og:description"
+					content={content.data.preview}
+				/>
+				<meta name="description" content={content.data.preview} />
+				<meta
 					property="og:title"
 					content={`${content.data.title[0].text} | Cambridge Doughnut`}
 				/>
@@ -78,8 +83,8 @@ export async function getStaticPaths() {
 }
 
 Post.propTypes = {
-	content: PropTypes.object.isRequired,
-	postId: PropTypes.string.isRequired,
+	content: PropTypes.object,
+	postId: PropTypes.string,
 };
 
 export default Post;
