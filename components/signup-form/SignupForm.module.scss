@@ -1,0 +1,80 @@
+.signupForm {
+	// & > div {
+	// 	display: flex;
+	// 	justify-content: center;
+	// 	align-items: center;
+	// }
+
+	.textInput {
+		// width: 100%;
+		display: block;
+		height: 2.8125rem;
+		font-size: 1.125rem;
+		margin-bottom: 0.5rem;
+		padding-left: 0.5rem;
+
+		&::placeholder {
+			font-size: 1.125rem;
+		}
+	}
+
+	.groupCheckbox {
+		display: block;
+		margin: 0.5rem 0;
+		font-size: 1.125rem;
+
+		&:first-of-type {
+			margin-top: 1rem;
+		}
+
+		input {
+			margin-right: 0.75rem;
+		}
+	}
+
+	button {
+		width: 6.25rem;
+		height: 2.8125rem;
+		margin: 0.625rem 0;
+		background-color: #878a88;
+		border: none;
+		font-size: 1rem;
+		line-height: 1rem;
+		transition: background-color 150ms;
+
+		&:not(.isDisabled) {
+			cursor: pointer;
+
+			&:hover {
+				background-color: #737574;
+			}
+		}
+	}
+
+	.checkbox {
+		margin-right: 0.5rem;
+	}
+
+	.errorMessage,
+	.successMessage {
+		display: block;
+		margin-top: 0.75rem;
+		font-size: 1.125rem;
+	}
+
+	.errorMessage {
+		color: red;
+	}
+
+	.successMessage {
+		color: green;
+	}
+}
+
+@media (min-width: 768px) {
+	.signupForm {
+		.gdprLabel {
+			font-size: 1.125rem;
+		}
+	}
+}

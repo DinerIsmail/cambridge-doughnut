@@ -15,7 +15,13 @@ const getRequestParams = (email, firstName, lastName, selectedOptions) => {
 
 	const url = `https://${DATACENTER}.api.mailchimp.com/3.0/lists/${LIST_ID}/members`;
 
-	const interests = selectedOptions.map((option) => ({ [option]: true }));
+	let interests = new Object();
+	if (selectedOptions) {
+		selectedOptions.map((option) => {
+			interests[option] = true;
+		});
+		console.log(interests);
+	}
 
 	const data = {
 		email_address: email,
@@ -41,7 +47,6 @@ const getRequestParams = (email, firstName, lastName, selectedOptions) => {
 };
 
 export default async (req, res) => {
-	console.log(req);
 	const { email, firstName, lastName, selectedOptions } = req.body;
 
 	if (!email || !email.length) {
@@ -65,7 +70,7 @@ export default async (req, res) => {
 		// console.error(error);
 		return res.status(400).json({
 			error:
-				'Oops, something went wrong. Please send an email to beeny@beeny.yoga and we can add you to the list.',
+				'Oops, something went wrong. Please send an email to info@cambridgedoughnut.org.uk and we can add you to the list.',
 		});
 	}
 };
