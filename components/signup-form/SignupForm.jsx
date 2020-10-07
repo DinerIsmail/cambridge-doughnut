@@ -42,7 +42,7 @@ const SignupForm = () => {
 	const [email, setEmail] = useState('');
 	const [firstName, setFirstName] = useState('');
 	const [lastName, setLastName] = useState('');
-	const [gdprChecked, setGdprChecked] = useState(false);
+	// const [gdprChecked, setGdprChecked] = useState(false);
 	const [state, setState] = useState(State.IDLE);
 	const [errorMessage, setErrorMessage] = useState(null);
 	const { setCheckbox, checkboxes } = useCheckboxes(checkboxesList);
@@ -72,11 +72,11 @@ const SignupForm = () => {
 		}
 	};
 
-	const handleGdprChanged = useCallback(() => {
-		setGdprChecked((prevState) => !prevState);
-	}, []);
+	// const handleGdprChanged = useCallback(() => {
+	// 	setGdprChecked((prevState) => !prevState);
+	// }, []);
 
-	const disableButton = state === State.LOADING || !gdprChecked;
+	// const disableButton = state === State.LOADING || !gdprChecked;
 
 	return (
 		<section className={styles.signupForm}>
@@ -90,7 +90,7 @@ const SignupForm = () => {
 				submit information on someone else’s behalf.
 			</p>
 			<p>
-				If you have any questions, please get in touch with us on &nbsp;
+				If you have any questions, please get in touch with us at &nbsp;
 				<a href="mailto:cambridgedoughnut+privacy@gmail.com">
 					cambridgedoughnut+privacy@gmail.com
 				</a>
@@ -162,18 +162,11 @@ const SignupForm = () => {
 						{checkbox.label}
 					</label>
 				))}
-				<button
-					className={classnames({
-						[styles.isDisabled]: disableButton,
-					})}
-					disabled={disableButton}
-					type="button"
-					onClick={subscribe}
-				>
+				<button type="button" onClick={subscribe}>
 					Subscribe
 				</button>
 			</div>
-			<label className={styles.gdprLabel} htmlFor="gdpr">
+			{/* <label className={styles.gdprLabel} htmlFor="gdpr">
 				<input
 					className={styles.checkbox}
 					checked={gdprChecked}
@@ -182,7 +175,7 @@ const SignupForm = () => {
 					type="checkbox"
 				/>
 				I want to receive emails from Cambridge Doughnut
-			</label>
+			</label> */}
 			{state === State.ERROR && (
 				<span className={styles.errorMessage}>{errorMessage}</span>
 			)}

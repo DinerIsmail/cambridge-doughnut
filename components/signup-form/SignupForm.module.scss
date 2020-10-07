@@ -13,6 +13,13 @@
 		padding-left: 0.5rem;
 		border-radius: 0.25rem;
 		border: 1px solid #ced4da;
+		outline: none;
+		outline-width: 0;
+		transition: box-shadow 0.2s;
+
+		&:focus {
+			box-shadow: 0 0 0 2px var(--primary);
+		}
 	}
 
 	.row {
@@ -38,13 +45,16 @@
 	}
 
 	button {
-		width: 6.25rem;
-		height: 2.8125rem;
+		// width: 6.25rem;
+		// height: 2.8125rem;
 		margin: 0.625rem 0;
+		padding: 1rem;
 		background-color: var(--primary);
+		color: white;
 		border: none;
-		font-size: 1rem;
+		font-size: 1.25rem;
 		line-height: 1rem;
+		border-radius: 0.5rem;
 		transition: background-color 150ms;
 
 		&:not(.isDisabled) {
@@ -73,6 +83,14 @@
 
 	.successMessage {
 		color: green;
+	}
+
+	p {
+		color: rgba(0, 0, 0, 0.8);
+	}
+
+	h2 {
+		margin: 2rem 0 0;
 	}
 }
 
