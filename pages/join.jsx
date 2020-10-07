@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 import { RichText } from 'prismic-reactjs';
 
 import ArticleWrapper from '../components/article-wrapper';
-import EmbeddedForm from '../components/embedded-form';
 import SignupForm from '../components/signup-form';
 import Button from '../components/display/button';
 import { Client } from '../prismic-configuration.js';
