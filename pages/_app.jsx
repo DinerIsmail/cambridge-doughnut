@@ -18,7 +18,6 @@ const App = ({ Component, pageProps }) => (
 				href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
 				rel="stylesheet"
 			/>
-			<link rel="canonical" href="https://cambridgedoughnut.org.uk/" />
 			<meta name="theme-color" content="#2b8186" />
 			<meta property="og:locale" content="en_GB" />
 			<meta property="og:type" content="website" />
