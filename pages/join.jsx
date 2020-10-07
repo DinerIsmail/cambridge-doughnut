@@ -19,7 +19,7 @@ const Join = ({ content }) => {
 				<meta property="og:title" content="Join | Cambridge Doughnut" />
 				<meta
 					property="og:image"
-					content="https://images.prismic.io/cambridgedoughnut/7375626c-7665-4d4e-8a8f-1192483eceb6_og-image.jpg?auto=compress,format"
+					content="https://images.prismic.io/cambridgedoughnut/339de155-225e-41b2-b624-f77b28b648a4_S95MarketCambridgefromGreatStMarys.jpg?auto=compress,format"
 				/>
 				<meta
 					property="og:description"
@@ -39,7 +39,6 @@ const Join = ({ content }) => {
 				/> */}
 				<RichText render={content.data.body2} />
 				<SignupForm />
-				{/* <EmbeddedForm /> */}
 			</ArticleWrapper>
 		</>
 	);
