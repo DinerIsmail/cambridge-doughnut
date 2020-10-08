@@ -1,6 +1,15 @@
 .signupForm {
+	width: 100%;
+
 	.label {
 		font-weight: 700;
+	}
+
+	.description {
+		p,
+		ul {
+			font-size: 1rem !important; // 1.125rem causes width issue on join us page. will investigate
+		}
 	}
 
 	.emailInput,
