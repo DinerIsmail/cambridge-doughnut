@@ -22,7 +22,7 @@ const Footer = ({ className }) => (
 		<section className={styles.links}>
 			<div className={styles.link}>
 				<a href="https://bit.ly/319oCNE" target="_blank">
-					<a>Privacy policy</a>
+					Privacy policy
 				</a>
 			</div>
 			<div className={styles.link}>
