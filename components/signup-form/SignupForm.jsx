@@ -1,10 +1,9 @@
-import PropTypes from 'prop-types';
-import { useCallback, useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import axios from 'axios';
-import classnames from 'classnames';
 import { useCheckboxes } from '../../hooks/useCheckboxes';
 import styles from './SignupForm.module.scss';
+import Description from './description';
 
 const State = {
 	IDLE: 'IDLE',
@@ -72,38 +71,9 @@ const SignupForm = () => {
 		}
 	};
 
-	// const handleGdprChanged = useCallback(() => {
-	// 	setGdprChecked((prevState) => !prevState);
-	// }, []);
-
-	// const disableButton = state === State.LOADING || !gdprChecked;
-
 	return (
 		<section className={styles.signupForm}>
-			<div className={styles.description}>
-				<h3>Register Interest</h3>
-				<p>
-					Register your interest in one or more of the following
-					options.
-				</p>
-				<p>
-					Personal data we collect under GDPR is name and email
-					address, and any information you enter in the open fields.
-					Please do not submit information on someone else’s behalf.
-				</p>
-				<p>
-					If you have any questions, please get in touch with us at
-					&nbsp;
-					<a href="mailto:cambridgedoughnut+privacy@gmail.com">
-						cambridgedoughnut+privacy@gmail.com
-					</a>
-					.
-				</p>
-				<p>
-					Our privacy policy:{' '}
-					<a href="https://bit.ly/319oCNE">https://bit.ly/319oCNE</a>
-				</p>
-			</div>
+			<Description />
 			<div>
 				<label className={styles.label} htmlFor="emailInput">
 					Email
@@ -170,16 +140,6 @@ const SignupForm = () => {
 					Subscribe
 				</button>
 			</div>
-			{/* <label className={styles.gdprLabel} htmlFor="gdpr">
-				<input
-					className={styles.checkbox}
-					checked={gdprChecked}
-					id="gdpr"
-					onChange={handleGdprChanged}
-					type="checkbox"
-				/>
-				I want to receive emails from Cambridge Doughnut
-			</label> */}
 			{state === State.ERROR && (
 				<span className={styles.errorMessage}>{errorMessage}</span>
 			)}

@@ -5,13 +5,6 @@
 		font-weight: 700;
 	}
 
-	.description {
-		p,
-		ul {
-			font-size: 1rem !important; // 1.125rem causes width issue on join us page. will investigate
-		}
-	}
-
 	.emailInput,
 	.firstNameInput,
 	.lastNameInput {
@@ -54,8 +47,6 @@
 	}
 
 	button {
-		// width: 6.25rem;
-		// height: 2.8125rem;
 		margin: 0.625rem 0;
 		padding: 1rem;
 		background-color: var(--primary);
@@ -96,6 +87,7 @@
 
 	p {
 		color: rgba(0, 0, 0, 0.8);
+		word-wrap: anywhere;
 	}
 
 	h2 {
