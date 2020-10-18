@@ -168,6 +168,10 @@ iframe {
 	width: 100%;
 }
 
+p > img {
+	width: 100%;
+}
+
 :root {
 	--background-grey: #f4f4f4;
 	--light-grey: #eeeeee;
