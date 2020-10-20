@@ -9,6 +9,7 @@ import { Client } from '../prismic-configuration.js';
 import PostContent from '../components/news/post-content';
 
 const Post = ({ content, postId }) => {
+	console.log(content);
 	const router = useRouter();
 	if (router.isFallback) {
 		return (
@@ -45,9 +46,12 @@ const Post = ({ content, postId }) => {
 				)}
 				<meta
 					property="og:description"
-					content={content.data.preview}
+					content={content.data.preview[0]?.text}
 				/>
-				<meta name="description" content={content.data.preview} />
+				<meta
+					name="description"
+					content={content.data.preview[0]?.text}
+				/>
 				<meta
 					property="og:title"
 					content={`${content.data.title[0].text} | Cambridge Doughnut`}
