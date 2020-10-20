@@ -40,7 +40,7 @@ const Post = ({ content, postId }) => {
 				) : (
 					<meta
 						property="og:image"
-						content="https://images.prismic.io/xrcambridge/7a4a2295-0c34-4eeb-a2c5-ca169974f884_generic-social-media-share.png"
+						content="https://images.prismic.io/cambridgedoughnut/339de155-225e-41b2-b624-f77b28b648a4_S95MarketCambridgefromGreatStMarys.jpg?auto=compress,format"
 					/>
 				)}
 				<meta
