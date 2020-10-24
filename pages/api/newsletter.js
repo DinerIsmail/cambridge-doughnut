@@ -20,7 +20,6 @@ const getRequestParams = (email, firstName, lastName, selectedOptions) => {
 		selectedOptions.map((option) => {
 			interests[option] = true;
 		});
-		console.log(interests);
 	}
 
 	const data = {

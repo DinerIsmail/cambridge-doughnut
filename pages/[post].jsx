@@ -9,7 +9,6 @@ import { Client } from '../prismic-configuration.js';
 import PostContent from '../components/news/post-content';
 
 const Post = ({ content, postId }) => {
-	console.log(content);
 	const router = useRouter();
 	if (router.isFallback) {
 		return (
