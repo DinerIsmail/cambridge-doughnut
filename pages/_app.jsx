@@ -3,7 +3,8 @@ import ReactGA from 'react-ga';
 import Head from 'next/head';
 import { useRouter } from 'next/router';
 import CookieConsent from 'react-cookie-consent';
-import Router from 'next/router';
+import PropTypes from 'prop-types';
+
 import Layout from '../components/layout';
 import '../styles/globals.css';
 
@@ -61,7 +62,7 @@ const App = ({ Component, pageProps }) => {
 						fontSize: '13px',
 						padding: '6px 20px',
 					}}
-					buttonText="Accept"
+					buttonText="Accept cookies"
 					cookieName="CookieConsent"
 					expires={150}
 					location="bottom"
@@ -69,11 +70,12 @@ const App = ({ Component, pageProps }) => {
 					style={{ background: '#2B373B' }}
 				>
 					We use cookies to improve user experience, and analyse
-					website traffic. By clicking “Accept Cookies,” you consent
+					website traffic. By clicking “Accept cookies”, you consent
 					to store on your device all the technologies described in
 					our{' '}
 					<a
 						href="https://bit.ly/319oCNE"
+						rel="noreferrer"
 						style={{ textDecoration: 'underline' }}
 						target="_blank"
 					>
@@ -84,6 +86,11 @@ const App = ({ Component, pageProps }) => {
 			</Layout>
 		</>
 	);
+};
+
+App.propTypes = {
+	Component: PropTypes.node.isRequired,
+	pageProps: PropTypes.array.isRequired,
 };
 
 export default App;

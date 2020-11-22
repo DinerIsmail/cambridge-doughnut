@@ -5,7 +5,7 @@ import dayjs from 'dayjs';
 
 import styles from './PostContent.module.scss';
 
-const PostContent = ({ body, date, image, title }) => {
+const PostContent = ({ author, body, date, image, title }) => {
 	const dateCreated = dayjs(date);
 
 	return (
@@ -15,6 +15,11 @@ const PostContent = ({ body, date, image, title }) => {
 					{image?.url && <img alt={image?.alt} src={image?.url} />}
 				</div>
 				<RichText render={title} />
+				{author.length > 0 && (
+					<span className={styles.author}>
+						by <RichText render={author} />
+					</span>
+				)}
 				{dateCreated.isValid() && (
 					<div className={styles.date}>
 						{dateCreated.format('MMMM D, YYYY')}
@@ -26,6 +31,12 @@ const PostContent = ({ body, date, image, title }) => {
 	);
 };
 
-PostContent.propTypes = {};
+PostContent.propTypes = {
+	author: PropTypes.array.isRequired,
+	body: PropTypes.array.isRequired,
+	date: PropTypes.string,
+	image: PropTypes.object.isRequired,
+	title: PropTypes.array.isRequired,
+};
 
 export default PostContent;

@@ -59,6 +59,7 @@ const Post = ({ content, postId }) => {
 			</Head>
 			<ArticleWrapper>
 				<PostContent
+					author={content.data.author}
 					body={content.data.body}
 					date={content.data.created}
 					image={content.data.main_image}

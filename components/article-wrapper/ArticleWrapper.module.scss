@@ -3,31 +3,27 @@
 	padding: 0;
 	width: 100%;
 
-	& > h1:first-of-type {
-		margin-bottom: 2rem;
-	}
-
-	& > h1,
-	& > h2,
-	& > h3,
-	& > h4,
-	& > h5,
-	& > h6 {
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
 		margin: 2rem 0 0;
 		line-height: 1.2;
 	}
 
-	& > section {
+	section {
 		margin: 0;
 	}
 
-	& > p {
+	p {
 		margin-bottom: 1rem;
 		color: rgba(0, 0, 0, 0.8);
 		font-size: 1.125rem;
 	}
 
-	& > p {
+	p {
 		img {
 			width: 100%;
 		}
@@ -40,21 +36,21 @@
 		padding: 0 3.125rem;
 		width: 750px;
 
-		& > h1,
-		& > h2,
-		& > h3,
-		& > h4,
-		& > h5,
-		& > h6 {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
 			margin: 2rem 0 0;
 		}
 
-		& > section {
+		section {
 			margin: 0;
 		}
 
-		& > p,
-		& > ul {
+		p,
+		ul {
 			margin-bottom: 1rem;
 		}
 	}
