@@ -68,14 +68,16 @@ const App = ({ Component, pageProps }) => {
 					onAccept={acceptCookie}
 					style={{ background: '#2B373B' }}
 				>
-					We use cookies. By clicking accept, you confirm that you
-					agree to our{' '}
+					We use cookies to improve user experience, and analyse
+					website traffic. By clicking “Accept Cookies,” you consent
+					to store on your device all the technologies described in
+					our{' '}
 					<a
 						href="https://bit.ly/319oCNE"
 						style={{ textDecoration: 'underline' }}
 						target="_blank"
 					>
-						privacy policy
+						Cookie policy
 					</a>
 					.
 				</CookieConsent>

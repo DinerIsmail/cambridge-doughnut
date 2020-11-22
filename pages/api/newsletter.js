@@ -15,7 +15,7 @@ const getRequestParams = (email, firstName, lastName, selectedOptions) => {
 
 	const url = `https://${DATACENTER}.api.mailchimp.com/3.0/lists/${LIST_ID}/members`;
 
-	let interests = new Object();
+	const interests = new Object();
 	if (selectedOptions) {
 		selectedOptions.map((option) => {
 			interests[option] = true;
