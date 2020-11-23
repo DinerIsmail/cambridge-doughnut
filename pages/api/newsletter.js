@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import axios from 'axios';
 
 /*
@@ -66,7 +67,7 @@ export default async (req, res) => {
 
 		return res.status(201).json({ error: null });
 	} catch (error) {
-		// console.error(error);
+		console.error(error);
 		return res.status(400).json({
 			error:
 				'Oops, something went wrong. Please send an email to info@cambridgedoughnut.org.uk and we can add you to the list.',
