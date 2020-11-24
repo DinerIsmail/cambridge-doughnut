@@ -74,7 +74,7 @@ const App = ({ Component, pageProps }) => {
 					to store on your device all the technologies described in
 					our{' '}
 					<a
-						href="https://bit.ly/319oCNE"
+						href="https://cambridgedoughnut.org.uk/cookie-policy"
 						rel="noreferrer"
 						style={{ textDecoration: 'underline' }}
 						target="_blank"
