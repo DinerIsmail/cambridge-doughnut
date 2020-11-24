@@ -21,7 +21,11 @@ const Footer = ({ className }) => (
 	<footer className={classnames(styles.root, className)}>
 		<section className={styles.links}>
 			<div className={styles.link}>
-				<a href="https://bit.ly/319oCNE" target="_blank">
+				<a
+					href="https://cambridgedoughnut.org.uk/privacy-policy"
+					rel="noreferrer"
+					target="_blank"
+				>
 					Privacy policy
 				</a>
 			</div>
