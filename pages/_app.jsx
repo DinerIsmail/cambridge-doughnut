@@ -89,7 +89,7 @@ const App = ({ Component, pageProps }) => {
 };
 
 App.propTypes = {
-	Component: PropTypes.node.isRequired,
+	Component: PropTypes.any.isRequired,
 	pageProps: PropTypes.array.isRequired,
 };
 

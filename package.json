@@ -18,7 +18,7 @@
 		"classnames": "2.2.6",
 		"dayjs": "1.9.6",
 		"framer-motion": "2.9.4",
-		"next": "10.0.2",
+		"next": "10.0.3",
 		"next-images": "1.6.2",
 		"next-pwa": "3.1.5",
 		"prismic-dom": "2.2.4",
