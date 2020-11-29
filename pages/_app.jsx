@@ -63,7 +63,7 @@ const App = ({ Component, pageProps }) => {
 						padding: '6px 20px',
 					}}
 					buttonText="Accept cookies"
-					cookieName="CookieConsent"
+					cookieName="CookieConsent2"
 					expires={150}
 					location="bottom"
 					onAccept={acceptCookie}
@@ -90,7 +90,7 @@ const App = ({ Component, pageProps }) => {
 
 App.propTypes = {
 	Component: PropTypes.any.isRequired,
-	pageProps: PropTypes.array.isRequired,
+	pageProps: PropTypes.any.isRequired,
 };
 
 export default App;

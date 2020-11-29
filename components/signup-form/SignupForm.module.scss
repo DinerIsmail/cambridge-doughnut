@@ -46,7 +46,7 @@
 		}
 	}
 
-	button {
+	.subscribe {
 		margin: 0.625rem 0;
 		padding: 1rem;
 		background-color: var(--primary);
@@ -55,13 +55,19 @@
 		font-size: 1.25rem;
 		line-height: 1rem;
 		border-radius: 0.5rem;
-		transition: background-color 150ms;
+		transition: background-color 200ms, padding 200ms;
 
 		&:not(.isDisabled) {
 			cursor: pointer;
 
 			&:hover {
 				background-color: var(--primary-darker);
+				padding-right: 1.5rem;
+				padding-left: 1.5rem;
+			}
+
+			&:active {
+				transform: translateY(2px);
 			}
 		}
 	}

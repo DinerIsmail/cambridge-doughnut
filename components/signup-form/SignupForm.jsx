@@ -136,7 +136,11 @@ const SignupForm = () => {
 						{checkbox.label}
 					</label>
 				))}
-				<button type="button" onClick={subscribe}>
+				<button
+					className={styles.subscribe}
+					type="button"
+					onClick={subscribe}
+				>
 					Subscribe
 				</button>
 			</div>
