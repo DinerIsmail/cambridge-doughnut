@@ -30,6 +30,15 @@ const Footer = ({ className }) => (
 				</a>
 			</div>
 			<div className={styles.link}>
+				<a
+					href="https://cambridgedoughnut.org.uk/cookie-policy"
+					rel="noreferrer"
+					target="_blank"
+				>
+					Cookie policy
+				</a>
+			</div>
+			<div className={styles.link}>
 				<Link href="mailto:info@cambridgedoughnut.org.uk">
 					<a>info@cambridgedoughnut.org.uk</a>
 				</Link>

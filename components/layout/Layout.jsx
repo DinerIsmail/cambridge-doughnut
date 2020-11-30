@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router';
-import classnames from 'classnames';
 import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 import Header from '../header';
