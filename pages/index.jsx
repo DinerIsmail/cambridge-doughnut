@@ -2,7 +2,7 @@ import Head from 'next/head';
 import PropTypes from 'prop-types';
 import { RichText } from 'prismic-reactjs';
 import ArticleWrapper from '../components/article-wrapper';
-import styles from '../styles/Home.module.scss';
+// import styles from '../styles/Home.module.scss';
 import { Client } from '../prismic-configuration.js';
 
 const Home = ({ content }) => {

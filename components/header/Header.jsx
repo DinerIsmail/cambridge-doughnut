@@ -5,6 +5,7 @@ import MobileNav from './mobile-nav';
 import Hero from '../hero';
 import styles from './Header.module.scss';
 import Logo from 'assets/logo.png';
+import HomepageHighlight from '~/components/homepage-highlight';
 
 const links = [
 	{
@@ -61,11 +62,18 @@ const Header = ({ showHero }) => {
 					</ul>
 				</nav>
 			</header>
-			{showHero && <Hero />}
+			{showHero && (
+				<>
+					<Hero />
+					<HomepageHighlight />
+				</>
+			)}
 		</>
 	);
 };
 
-Header.propTypes = {};
+Header.propTypes = {
+	showHero: PropTypes.bool.isRequired,
+};
 
 export default Header;

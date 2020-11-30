@@ -177,5 +177,6 @@ p > img {
 	--light-grey: #eeeeee;
 	--primary: #2b8186;
 	--primary-darker: #1c676b;
+	--primary-lighter: #b5ebed;
 	--light-text: rgba(0, 0, 0, 0.6);
 }

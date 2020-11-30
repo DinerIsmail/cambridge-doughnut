@@ -1,0 +1,47 @@
+.root {
+	margin-top: 1rem;
+
+	.section {
+		flex: 1;
+		padding: 1rem;
+	}
+
+	h2 {
+		display: inline-block;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+		line-height: 1.2;
+		font-size: 2.25rem;
+		font-family: 'Poppins', sans-serif;
+		border-bottom: 5px solid var(--primary-darker);
+	}
+
+	p,
+	ol,
+	ul {
+		font-family: 'Poppins', sans-serif;
+		font-size: 1.125rem;
+		color: rgba(0, 0, 0, 80%);
+	}
+
+	a {
+		color: var(--primary);
+		text-decoration: underline;
+		transition: opacity 200ms;
+
+		&:hover {
+			opacity: 75%;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.root {
+		display: flex;
+		margin-top: 0;
+
+		.section {
+			padding: 2rem;
+		}
+	}
+}
