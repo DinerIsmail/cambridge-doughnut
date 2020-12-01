@@ -65,7 +65,6 @@ const Header = ({ showHero }) => {
 			{showHero && (
 				<>
 					<Hero />
-					<HomepageHighlight />
 				</>
 			)}
 		</>
