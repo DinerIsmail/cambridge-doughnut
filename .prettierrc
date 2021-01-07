@@ -3,7 +3,6 @@
 	"useTabs": true,
 	"printWidth": 80,
 	"jsxBracketSameLine": false,
-	"editor.formatOnSave": true,
 	"arrowParens": "always",
 	"trailingComma": "all"
 }

@@ -36,6 +36,10 @@ const links = [
 		pathname: '/faq',
 		label: 'FAQs',
 	},
+	{
+		pathname: '/donate',
+		label: 'Donate',
+	},
 ];
 
 const Header = ({ showHero }) => {
