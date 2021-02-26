@@ -59,7 +59,7 @@ const Footer = ({ className }) => (
 			</ul>
 		</section>
 		<div className={styles.copyright}>
-			Copyright © 2020 Cambridge Doughnut
+			Copyright © 2021 Cambridge Doughnut
 		</div>
 	</footer>
 );
