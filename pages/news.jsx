@@ -37,7 +37,11 @@ export async function getStaticProps() {
 			{ orderings: '[my.post.created desc]', pageSize: 100 },
 		);
 
-		return { props: { posts: content.results }, revalidate: 1 };
+		const listedItems = content.results.filter(
+			(i) => i.data.listed_in_news,
+		);
+
+		return { props: { posts: listedItems }, revalidate: 1 };
 	} catch (error) {
 		return { props: { posts: [] } };
 	}

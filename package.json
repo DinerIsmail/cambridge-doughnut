@@ -1,7 +1,7 @@
 {
 	"name": "cambridge-doughnut",
 	"version": "0.1.0",
-	"description": "Cambridge Doughnut Economy Action Group (DEAG)",
+	"description": "Cambridge Doughnut Economics Action Group (DEAG)",
 	"private": true,
 	"engines": {
 		"node": ">=12.0.0",
