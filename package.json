@@ -14,10 +14,13 @@
 		"lint": "eslint --fix . && echo 'Lint complete.'"
 	},
 	"dependencies": {
+		"@chakra-ui/react": "1.6.0",
+		"@emotion/react": "11.1.5",
+		"@emotion/styled": "11.3.0",
 		"axios": "0.21.1",
 		"classnames": "2.2.6",
 		"dayjs": "1.9.8",
-		"framer-motion": "3.1.4",
+		"framer-motion": "4.1.11",
 		"next": "10.0.6",
 		"next-images": "1.7.0",
 		"prismic-dom": "2.2.4",

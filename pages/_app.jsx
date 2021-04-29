@@ -4,6 +4,7 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 import CookieConsent from 'react-cookie-consent';
 import PropTypes from 'prop-types';
+import { ChakraProvider } from '@chakra-ui/react';
 
 import Layout from '../components/layout';
 import '../styles/globals.css';
@@ -54,7 +55,9 @@ const App = ({ Component, pageProps }) => {
 				/>
 			</Head>
 			<Layout>
-				<Component {...pageProps} />
+				<ChakraProvider>
+					<Component {...pageProps} />
+				</ChakraProvider>
 				<CookieConsent
 					buttonStyle={{
 						backgroundColor: '#2b8186',
