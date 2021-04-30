@@ -50,15 +50,14 @@ const Home = ({ content }) => {
 						</chakra.h2>
 						<chakra.p style={{ marginBottom: '0px' }}>
 							Members of Cambridge Doughnut asked candidates
-							standing for elections to answer three questions to
-							explain how they will ensure that Cambridge and
-							surrounding areas will look after the needs of its
-							citizens while respecting the environmental limits
-							and the climate emergency. We received responses
-							across parties and a number of candidates have
-							spoken about Doughnut Economics during their
-							campaigning as well. You can read their responses
-							here.
+							standing for the upcoming elections in Cambridge and
+							surrounding areas to answer three questions about
+							how they will look after the needs of citizens while
+							taking into consideration environmental limits and
+							the climate emergency. We received responses across
+							party lines and a number of candidates referenced
+							Doughnut Economics during their campaigning as well.
+							You can read their responses here.
 						</chakra.p>
 					</Box>
 				</Link>
