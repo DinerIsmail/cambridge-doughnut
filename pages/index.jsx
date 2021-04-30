@@ -1,8 +1,9 @@
 import Head from 'next/head';
+import Link from 'next/link';
 import PropTypes from 'prop-types';
 import { RichText } from 'prismic-reactjs';
+import { chakra, Box } from '@chakra-ui/react';
 import ArticleWrapper from '../components/article-wrapper';
-// import styles from '../styles/Home.module.scss';
 import { Client } from '../prismic-configuration.js';
 
 const Home = ({ content }) => {
@@ -33,6 +34,34 @@ const Home = ({ content }) => {
 				/>
 			</Head>
 			<ArticleWrapper>
+				<Link href="/questions-to-candidates">
+					<Box
+						bg="#b5ebed"
+						mt={4}
+						p={3}
+						borderRadius={8}
+						cursor="pointer"
+						transition="background 150ms"
+						_hover={{ bg: '#8bc2c4' }}
+						onClick={{}}
+					>
+						<chakra.h2 style={{ marginTop: '0px' }}>
+							Questions to Candidates
+						</chakra.h2>
+						<chakra.p style={{ marginBottom: '0px' }}>
+							Members of Cambridge Doughnut asked candidates
+							standing for elections to answer three questions to
+							explain how they will ensure that Cambridge and
+							surrounding areas will look after the needs of its
+							citizens while respecting the environmental limits
+							and the climate emergency. We received responses
+							across parties and a number of candidates have
+							spoken about Doughnut Economics during their
+							campaigning as well. Please find attached our press
+							release with the responses from candidates.
+						</chakra.p>
+					</Box>
+				</Link>
 				<RichText render={content.data.body} />
 			</ArticleWrapper>
 		</>

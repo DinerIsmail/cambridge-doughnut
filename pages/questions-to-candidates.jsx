@@ -110,8 +110,8 @@ const QuestionsToCandidates = () => (
 					<h2>
 						<AccordionButton backgroundColor="#b5ebed">
 							<Box flex="1" textAlign="left">
-								Hannah Copley, Naomi Bennet and Matt Howard,
-								Abbey, Green
+								Hannah Copley, Naomi Bennet, Matt Howard and
+								Jeremy Caddick Abbey, Green Party
 							</Box>
 							<AccordionIcon />
 						</AccordionButton>
@@ -143,7 +143,7 @@ const QuestionsToCandidates = () => (
 					<h2>
 						<AccordionButton backgroundColor="#b5ebed">
 							<Box flex="1" textAlign="left">
-								Liberal Democrats
+								Liberal Democrats (collective response)
 							</Box>
 							<AccordionIcon />
 						</AccordionButton>
@@ -364,8 +364,8 @@ const QuestionsToCandidates = () => (
 					<h2>
 						<AccordionButton backgroundColor="#b5ebed">
 							<Box flex="1" textAlign="left">
-								Hannah Copley, Naomi Bennet and Matt Howard,
-								Abbey, Green
+								Hannah Copley, Naomi Bennet, Matt Howard and
+								Jeremy Caddick Abbey, Green Party
 							</Box>
 							<AccordionIcon />
 						</AccordionButton>
@@ -425,7 +425,7 @@ const QuestionsToCandidates = () => (
 					<h2>
 						<AccordionButton backgroundColor="#b5ebed">
 							<Box flex="1" textAlign="left">
-								Liberal Democrats
+								Liberal Democrats (collective response)
 							</Box>
 							<AccordionIcon />
 						</AccordionButton>
@@ -653,8 +653,8 @@ const QuestionsToCandidates = () => (
 					<h2>
 						<AccordionButton backgroundColor="#b5ebed">
 							<Box flex="1" textAlign="left">
-								Hannah Copley, Naomi Bennet and Matt Howard,
-								Abbey, Green
+								Hannah Copley, Naomi Bennet, Matt Howard and
+								Jeremy Caddick Abbey, Green Party
 							</Box>
 							<AccordionIcon />
 						</AccordionButton>
@@ -707,7 +707,7 @@ const QuestionsToCandidates = () => (
 					<h2>
 						<AccordionButton backgroundColor="#b5ebed">
 							<Box flex="1" textAlign="left">
-								Liberal Democrats
+								Liberal Democrats (collective response)
 							</Box>
 							<AccordionIcon />
 						</AccordionButton>
