@@ -48,7 +48,7 @@ const Home = ({ content }) => {
 						<chakra.h2 style={{ marginTop: '0px' }}>
 							Questions to Candidates
 						</chakra.h2>
-						<chakra.p style={{ marginBottom: '0px' }}>
+						<chakra.p>
 							Members of Cambridge Doughnut asked candidates
 							standing for the upcoming elections in Cambridge and
 							surrounding areas to answer three questions about
@@ -57,8 +57,10 @@ const Home = ({ content }) => {
 							the climate emergency. We received responses across
 							party lines and a number of candidates referenced
 							Doughnut Economics during their campaigning as well.
-							You can read their responses here.
 						</chakra.p>
+						<p style={{ marginBottom: '0px' }}>
+							Click on this box to read their responses...
+						</p>
 					</Box>
 				</Link>
 				<RichText render={content.data.body} />
