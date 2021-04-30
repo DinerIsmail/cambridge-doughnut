@@ -57,8 +57,8 @@ const Home = ({ content }) => {
 							and the climate emergency. We received responses
 							across parties and a number of candidates have
 							spoken about Doughnut Economics during their
-							campaigning as well. Please find attached our press
-							release with the responses from candidates.
+							campaigning as well. You can read their responses
+							here.
 						</chakra.p>
 					</Box>
 				</Link>
