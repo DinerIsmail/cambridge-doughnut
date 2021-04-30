@@ -35,6 +35,15 @@ const QuestionsToCandidates = () => (
 		</Head>
 		<ArticleWrapper>
 			<h1>Questions to Candidates ahead of the 6th May Election</h1>
+			<p>
+				Members of Cambridge Doughnut asked candidates standing for the
+				upcoming elections in Cambridge and surrounding areas to answer
+				three questions about how they will look after the needs of
+				citizens while taking into consideration environmental limits
+				and the climate emergency. We received responses across party
+				lines and a number of candidates referenced Doughnut Economics
+				during their campaigning as well.
+			</p>
 			<h2>
 				1. How will you ensure the new Local Plan alongside council
 				initiatives improves the living standards of the less privileged
