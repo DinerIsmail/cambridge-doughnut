@@ -126,25 +126,52 @@ const QuestionsToCandidates = () => (
 						</AccordionButton>
 					</h2>
 					<AccordionPanel pb={4}>
-						`The Greater Cambridge Local Plan needs to ensure that
-						there are sufficient council homes available as 'social
-						housing' in new developments such as we have in
-						Trumpington leaves people paying 80% of market rents,
-						which is too high for many, following a decade of wages
-						being frozen. The Plan should also ensure new
-						developments have good transport links and enable the
-						use of cycling, walking and public transport into and
-						around the city, thereby reducing travel costs and
-						supporting the environment. New developments should also
-						encompass green space for all to enjoy, as we are lucky
-						to have so many green spaces, including nature reserves
-						and community gardens in Trumpington. The provision of
-						allotments has enabled people to grow their own food,
-						and supports sustainable food initiatives, such as the
-						'grow a row' scheme which supports the community food
-						hubs. We also need to consider community wealth building
-						and ethical procurement, supporting businesses which pay
-						a living wage and benefit the community.`
+						We would encourage both the Council and local industry
+						including the university, tech, bio and pharma to create
+						more truly green jobs and projects, working proactively
+						with other groups to seek funding for jobs that are not
+						environmentally damaging. We are all supporters of
+						Universal Basic Income, and have signed the pledge from
+						the UBI lab network to push for Basic Income pilots in
+						their communities
+						(https://www.ubilabnetwork.org/councillors-pledge). The
+						goals of this are to significantly reduce poverty and
+						act to address lack of equality for individuals and
+						communities. People in Cambridge who are not lucky
+						enough to be at the wealthiest end of the income
+						spectrum are living lives that are becoming increasingly
+						more insecure. Many are caught between the demands of a
+						precarious labour market and needing to care for elderly
+						or disabled relatives or young children. We support a
+						UBI pilot here in Cambridge, which, based on previous
+						evidence, should reduce poverty and improve wellbeing
+						for many of those involved in it. The Cambridge Green
+						Party is very concerned at the current focus on top-down
+						economic growth for our region. The thousands of new
+						homes now being built will mainly benefit developers and
+						those with money to invest. The fact that ‘affordable’
+						housing is too expensive for those ‘ordinary’ people
+						needing homes in Cambridge has been often reiterated by
+						the Cambridge Green Party. “Sustainable homes should be
+						on sale at prices which are genuinely affordable for
+						lower income households”, stated Naomi Bennett. We would
+						work to lower the percentage of the market price
+						currently used from 80% to 30% and increase the
+						requirement for such provision to 50% or more of the
+						total for any new development, and we would back the
+						Council's Planning Department in not allowing developers
+						to change these figures. The Green Party would like to
+						see a large increase in council owned and managed secure
+						rented property. “We will also push for a significant
+						increase in council -owned and managed secure rented
+						property, backed up by community ownership cooperatives,
+						housing associations and co-housing projects”, said
+						Hannah Charlotte Copley. See
+						https://southcambs.greenparty.org.uk/news/local-green-parties-respond-to-housing-consultation.html.
+						We would seek to empower local communities to shape
+						their environment through genuine engagement in planning
+						and housing policy, following the excellent example set
+						at Marmalade Lane.
 					</AccordionPanel>
 				</AccordionItem>
 
