@@ -315,6 +315,80 @@ const QuestionsToCandidates = () => (
 						Mayor, we can do this.{' '}
 					</AccordionPanel>
 				</AccordionItem>
+
+				<AccordionItem>
+					<h2>
+						<AccordionButton backgroundColor="#b5ebed">
+							<Box flex="1" textAlign="left">
+								Sam Davies, Independent Political Candidate,
+								Queen Edith's Ward
+							</Box>
+							<AccordionIcon />
+						</AccordionButton>
+					</h2>
+					<AccordionPanel pb={4}>
+						The three big themes which have underpinned my campaign
+						are co-ordination, community, and communication. All of
+						these are essential to achieving the goals espoused by
+						Cambridge Doughnut, as only by bringing these together
+						can we hope to achieve the system-level change which is
+						required. With reference to the Local Plan, it’s
+						important to acknowledge that the City Council does not
+						have complete freedom of movement as whatever policies
+						and priorities are adopted need to be compliant with,
+						for example, the National Planning Policy Framework. It
+						is also the case that housing (in)affordability is not
+						just a supply-side problem, ie building more housing
+						won’t by itself solve Cambridge’s housing crisis.
+						There’s an excellent explanation of why that is in a
+						recent Cambridge Commons talk:
+						https://www.youtube.com/watch?v=wV0NVqKcgl8&t=3s So of
+						course we need to make sure that any housing development
+						achieves its maximum possible quota of affordable
+						housing (and within that, the maximum possible social
+						rented housing), but that shouldn’t be the only tool in
+						our toolkit. Given the constraints we’re operating
+						under, I want to see this next Local Plan take a much
+						more judicious approach to the creation of employment
+						sites. To give you one example of why this is necessary,
+						let’s look at the numbers for the North East Cambridge
+						development already going through the planning process.
+						There are 8350 homes planned for development and 20000
+						jobs. The 8,350 homes are expected to accommodate about
+						18,000 people, of whom about 10,500 will be in
+						employment (69.5% of Cambridge residents are aged 16–64,
+						and 83% of them are economically active), some
+						self-employed. The addition of 20,000 new jobs at NEC
+						will therefore create at least 9,500 new jobs for which
+						housing will be required elsewhere. In other words, this
+						development will increase, not decrease overall demand
+						for housing, exacerbating an already acute and worsening
+						housing shortage in Greater Cambridge. Cambridge Ahead
+						and the pro-growth lobby are pushing for an
+						“employment-led housing strategy” – but if we keep
+						allowing unbridled growth of employment sites, then
+						housing supply will never get a chance to reach
+						equilibrium. This will be a challenging message to
+						communicate and get accepted, but is a necessary part of
+						the culture change inherent in moving away from the
+						fixation on growth at any cost. With reference to how to
+						improve quality of life for the economically
+						marginalised, we have run a multitude of ward-level
+						‘experiments’ in Queen Edith’s to see what works,
+						including the repurposing of un(der)-utilised green
+						space for community purposes; good neighbour volunteer
+						schemes; redistribution of clothes, books, toys; and the
+						food hub. We are learning how these projects can evolve
+						from crisis responses to more ambitious permanently
+						embedded assets, and we are seeing the power of a
+						community which feels the sense of agency and ownership
+						derived from “doing with/by” rather than “doing to/for”.
+						I am keen to explore how this learning can be applied at
+						different scales and in different contexts. The gold
+						standard is the Participatory City work going on in
+						Barking and Dagenham.
+					</AccordionPanel>
+				</AccordionItem>
 			</Accordion>
 
 			<h2>
@@ -603,6 +677,82 @@ const QuestionsToCandidates = () => (
 						understandable images and guidance on how to engage.
 					</AccordionPanel>
 				</AccordionItem>
+
+				<AccordionItem>
+					<h2>
+						<AccordionButton backgroundColor="#b5ebed">
+							<Box flex="1" textAlign="left">
+								Sam Davies, Independent Political Candidate,
+								Queen Edith's Ward
+							</Box>
+							<AccordionIcon />
+						</AccordionButton>
+					</h2>
+					<AccordionPanel pb={4}>
+						There are some very obvious comments to be made here
+						about active travel, building standards, green
+						infrastructure, water security, etc. Yes of course we
+						should be prioritising all of these, but as piecemeal
+						interventions they don’t begin to scratch the surface of
+						what’s required. Again, we need to look at this through
+						a systems lens to link the ecological and social
+						domains. Specifically, to return to the three key themes
+						I identified above: • Coordination – attempts to address
+						the climate emergency are fatally undermined by the
+						separation of powers and responsibilities across
+						multiple tiers of local government (City Council, County
+						Council, GCP, Combined Authority and whatever governance
+						arrangement is put in place to deliver the OxCam Arc).
+						As a result, everything operates in silos, not just
+						across these organisations but even within them. For
+						example, in Queen Edith’s the County Council provided a
+						pot of money to build the Hills Road cycleways, but
+						there was no appetite to improve climate resilience
+						through sustainable urban drainage (SUDS) or street
+						trees, and there’s no maintenance budget either.
+						Similarly the GCP is planning a controversial and hugely
+						expensive busway from the A11 to the Biomedical Campus
+						but lacks ambition in terms of active travel
+						connectivity and biodiversity enhancements alongside it.
+						And the City Council recently gave outline planning
+						permission for 400 houses on Green Belt land at Wort’s
+						Causeway without requiring the developer to provide a
+						safe and convenient walking and cycling connection to
+						the rest of the neighbourhood. We have to have better
+						transparency, accountability and integration otherwise
+						we will struggle to make any real progress. Furthermore
+						I would like to see much more emphasis on adopting a
+						place-based approach, to ensure that multiple separate
+						interventions work together to create (rather than
+						undermine) liveable neighbourhoods. • Community – as I
+						mentioned above, we’ve been experimenting in Queen
+						Edith’s with how we can create a more redistributive and
+						circular local economy. Bearing in mind that the first
+						item in the hierarchy is ‘Reduce’ followed by ‘Reuse’
+						and only then ‘Recycle’, we need to be creating the
+						circumstances under which communities can more easily
+						embrace these principles, and a key issue in Cambridge
+						is the cost of property, where exchange value outstrips
+						use value making it very difficult for non-commercial
+						actors to access space. Imagine if each neighbourhood in
+						the city had one or more community spaces which hosted
+						not just activities but also a repair café, a Library of
+						Things, a book exchange, a community wardrobe, a street
+						party kit, etc etc - everything you need for a convivial
+						and sustainable communal life. • Communication – there
+						needs to be a really determined effort to communicate
+						both the need for mindset and behaviour change, and the
+						means by which individuals, communities and corporations
+						can play their part. This needs to be consistent,
+						coherent and authentic (ie not just talking the talk,
+						but walking it too), which brings us back full-circle to
+						the co-ordination point above. People will be asked to
+						make changes to their lives which they may regard as
+						unwelcome, and it is imperative that those bodies asking
+						them to make those changes cannot be criticised for
+						inconsistency or, worse still, hypocrisy.
+					</AccordionPanel>
+				</AccordionItem>
 			</Accordion>
 
 			<h2>
@@ -808,6 +958,24 @@ const QuestionsToCandidates = () => (
 						behind you. With their written support and details from
 						local climate action groups, elected councillors and MPs
 						can demand action from the Government ministers.
+					</AccordionPanel>
+				</AccordionItem>
+
+				<AccordionItem>
+					<h2>
+						<AccordionButton backgroundColor="#b5ebed">
+							<Box flex="1" textAlign="left">
+								Sam Davies, Independent Political Candidate,
+								Queen Edith's Ward
+							</Box>
+							<AccordionIcon />
+						</AccordionButton>
+					</h2>
+					<AccordionPanel pb={4}>
+						I fully support the aims of the CEE Bill and would lobby
+						both the City Council and my MP (Anthony Browne, as
+						Queen Edith’s is in the South Cambs constituency) to
+						advocate for it.
 					</AccordionPanel>
 				</AccordionItem>
 			</Accordion>
